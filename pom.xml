@@ -8,5 +8,6 @@
   <modules>
   	<module>DesignPatterns</module>
   	<module>Api-demo</module>
+  	<module>nio</module>
   </modules>
 </project>
