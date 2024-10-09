@@ -23,7 +23,7 @@ import com.google.gson.Gson;
  * 
  *         一个线程添加任务，一个线程消费任务
  */
-@Component
+//@Component
 public class Queue implements ApplicationRunner {
 
 	private static Log log = LogFactory.getLog(Queue.class);

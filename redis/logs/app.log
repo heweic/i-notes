@@ -2166,3 +2166,905 @@ Consider defining a bean of type 'org.redisson.api.RedissonClient' in your confi
 2024-10-09 16:41:10 [redisMessageListenerContainer-7] INFO  Queue - 收到队列消息:"{\"id\":\"2ebe5d5e-efef-42c5-8c33-51231c749332\",\"name\":\"bdf53347-9a32-40cb-a53c-cf37140b84c8\",\"age\":7}"
 2024-10-09 16:41:11 [redisMessageListenerContainer-8] INFO  Queue - 收到队列消息:"{\"id\":\"ee5d9b7a-2d40-4a1e-bd42-7ded68f01e5f\",\"name\":\"e95395c1-0bb0-4bac-8543-e27fb63750a4\",\"age\":8}"
 2024-10-09 16:41:13 [redisMessageListenerContainer-9] INFO  Queue - 收到队列消息:"{\"id\":\"26408c0e-6e53-4592-8c51-43627b62bd53\",\"name\":\"74a5b0f9-7abe-46f7-82d0-319ea618e1f1\",\"age\":9}"
+2024-10-09 17:32:59 [main] INFO  RedisWebApplication - Starting RedisWebApplication using Java 23 with PID 2280 (D:\git\i-notes\redis\target\classes started by admin in D:\git\i-notes\redis)
+2024-10-09 17:32:59 [main] INFO  RedisWebApplication - No active profile set, falling back to 1 default profile: "default"
+2024-10-09 17:33:00 [main] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+2024-10-09 17:33:00 [main] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2024-10-09 17:33:00 [main] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 25 ms. Found 0 Redis repository interfaces.
+2024-10-09 17:33:01 [main] INFO  TomcatWebServer - Tomcat initialized with port 8089 (http)
+2024-10-09 17:33:01 [main] INFO  Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8089"]
+2024-10-09 17:33:01 [main] INFO  StandardService - Starting service [Tomcat]
+2024-10-09 17:33:01 [main] INFO  StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.30]
+2024-10-09 17:33:01 [main] INFO  [/] - Initializing Spring embedded WebApplicationContext
+2024-10-09 17:33:01 [main] INFO  ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2512 ms
+2024-10-09 17:33:03 [main] INFO  EndpointLinksResolver - Exposing 1 endpoint beneath base path '/actuator'
+2024-10-09 17:33:03 [main] INFO  Http11NioProtocol - Starting ProtocolHandler ["http-nio-8089"]
+2024-10-09 17:33:03 [main] INFO  TomcatWebServer - Tomcat started on port 8089 (http) with context path '/'
+2024-10-09 17:33:03 [main] INFO  RedisWebApplication - Started RedisWebApplication in 5.108 seconds (process running for 6.469)
+2024-10-09 17:33:06 [redisMessageListenerContainer-1] INFO  Queue - 收到队列消息:"{\"id\":\"8fea3635-bff8-49db-8f45-8737da4119bc\",\"name\":\"eeff3064-c677-4d93-9f1f-a2c64177c5ff\",\"age\":1,\"score\":0}"
+2024-10-09 17:33:07 [redisMessageListenerContainer-2] INFO  Queue - 收到队列消息:"{\"id\":\"5727017d-a220-4c07-8975-acd594890c50\",\"name\":\"1ebd280d-39af-4ee6-b682-8764eb3c6b9a\",\"age\":2,\"score\":0}"
+2024-10-09 17:33:09 [redisMessageListenerContainer-3] INFO  Queue - 收到队列消息:"{\"id\":\"a2586a13-3618-42f7-a810-a33136ff56a4\",\"name\":\"a591844c-956b-4260-aa06-91707768b192\",\"age\":3,\"score\":0}"
+2024-10-09 17:33:10 [redisMessageListenerContainer-4] INFO  Queue - 收到队列消息:"{\"id\":\"fafe177a-b320-49c2-a432-0309a3b5dd20\",\"name\":\"508ceb22-4755-430e-b4c7-51592560b643\",\"age\":4,\"score\":0}"
+2024-10-09 17:33:11 [redisMessageListenerContainer-5] INFO  Queue - 收到队列消息:"{\"id\":\"9b98cf6e-c957-42f4-89f4-b73b581ecf7d\",\"name\":\"747f645c-12e2-4921-b074-a4aefb617520\",\"age\":5,\"score\":0}"
+2024-10-09 17:33:11 [Thread-2] INFO  UserBoard - 查询排行榜
+2024-10-09 17:33:11 [Thread-2] INFO  UserBoard - "1fc85f64-20f8-4c8e-b4e5-9a75fb1e9530"
+2024-10-09 17:33:11 [Thread-2] INFO  UserBoard - "c00cd819-5e80-4525-b0ac-0e53ed4bd2e0"
+2024-10-09 17:33:12 [redisMessageListenerContainer-6] INFO  Queue - 收到队列消息:"{\"id\":\"d5e765f3-c76d-42dc-a9ee-f752ed8aa368\",\"name\":\"1257bb25-0e31-4fd2-8348-a494463cb9e2\",\"age\":6,\"score\":0}"
+2024-10-09 17:33:13 [redisMessageListenerContainer-7] INFO  Queue - 收到队列消息:"{\"id\":\"c1c197ff-4096-4832-82e7-964033a7602c\",\"name\":\"3d31ae3f-cc22-49ed-81b5-ededf1f94176\",\"age\":7,\"score\":0}"
+2024-10-09 17:33:15 [redisMessageListenerContainer-8] INFO  Queue - 收到队列消息:"{\"id\":\"38372294-53b3-48d6-a69c-65076bc0e1f2\",\"name\":\"4b849a3c-de6a-4aa0-a938-ad3715806e61\",\"age\":8,\"score\":0}"
+2024-10-09 17:33:16 [redisMessageListenerContainer-9] INFO  Queue - 收到队列消息:"{\"id\":\"44ecdc4c-e4fd-46e3-b0ba-364a8bfd13a9\",\"name\":\"124c5c25-00c0-417f-83f0-7dad49da92ac\",\"age\":9,\"score\":0}"
+2024-10-09 17:33:16 [Thread-2] INFO  UserBoard - 查询排行榜
+2024-10-09 17:33:16 [Thread-2] INFO  UserBoard - "1fc85f64-20f8-4c8e-b4e5-9a75fb1e9530"
+2024-10-09 17:33:16 [Thread-2] INFO  UserBoard - "8133110a-c61e-4321-9ef2-b2248e4fc016"
+2024-10-09 17:33:16 [Thread-2] INFO  UserBoard - "2adf3e55-6f7e-4568-8b9c-cdbdf7f0db2f"
+2024-10-09 17:33:16 [Thread-2] INFO  UserBoard - "c00cd819-5e80-4525-b0ac-0e53ed4bd2e0"
+2024-10-09 17:33:22 [Thread-2] INFO  UserBoard - 查询排行榜
+2024-10-09 17:33:22 [Thread-2] INFO  UserBoard - "1fc85f64-20f8-4c8e-b4e5-9a75fb1e9530"
+2024-10-09 17:33:22 [Thread-2] INFO  UserBoard - "8133110a-c61e-4321-9ef2-b2248e4fc016"
+2024-10-09 17:33:22 [Thread-2] INFO  UserBoard - "2adf3e55-6f7e-4568-8b9c-cdbdf7f0db2f"
+2024-10-09 17:33:22 [Thread-2] INFO  UserBoard - "c00cd819-5e80-4525-b0ac-0e53ed4bd2e0"
+2024-10-09 17:33:22 [Thread-2] INFO  UserBoard - "41c2eb4e-381e-4192-a52f-5fa65a601645"
+2024-10-09 17:33:27 [Thread-2] INFO  UserBoard - 查询排行榜
+2024-10-09 17:33:27 [Thread-2] INFO  UserBoard - "1fc85f64-20f8-4c8e-b4e5-9a75fb1e9530"
+2024-10-09 17:33:27 [Thread-2] INFO  UserBoard - "8133110a-c61e-4321-9ef2-b2248e4fc016"
+2024-10-09 17:33:27 [Thread-2] INFO  UserBoard - "2adf3e55-6f7e-4568-8b9c-cdbdf7f0db2f"
+2024-10-09 17:33:27 [Thread-2] INFO  UserBoard - "c00cd819-5e80-4525-b0ac-0e53ed4bd2e0"
+2024-10-09 17:33:27 [Thread-2] INFO  UserBoard - "41c2eb4e-381e-4192-a52f-5fa65a601645"
+2024-10-09 17:34:11 [main] INFO  RedisWebApplication - Starting RedisWebApplication using Java 23 with PID 9752 (D:\git\i-notes\redis\target\classes started by admin in D:\git\i-notes\redis)
+2024-10-09 17:34:11 [main] INFO  RedisWebApplication - No active profile set, falling back to 1 default profile: "default"
+2024-10-09 17:34:12 [main] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+2024-10-09 17:34:12 [main] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2024-10-09 17:34:12 [main] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 17 ms. Found 0 Redis repository interfaces.
+2024-10-09 17:34:13 [main] INFO  TomcatWebServer - Tomcat initialized with port 8089 (http)
+2024-10-09 17:34:13 [main] INFO  Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8089"]
+2024-10-09 17:34:13 [main] INFO  StandardService - Starting service [Tomcat]
+2024-10-09 17:34:13 [main] INFO  StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.30]
+2024-10-09 17:34:13 [main] INFO  [/] - Initializing Spring embedded WebApplicationContext
+2024-10-09 17:34:13 [main] INFO  ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1890 ms
+2024-10-09 17:34:15 [main] INFO  EndpointLinksResolver - Exposing 1 endpoint beneath base path '/actuator'
+2024-10-09 17:34:15 [main] INFO  Http11NioProtocol - Starting ProtocolHandler ["http-nio-8089"]
+2024-10-09 17:34:15 [main] INFO  TomcatWebServer - Tomcat started on port 8089 (http) with context path '/'
+2024-10-09 17:34:15 [main] INFO  RedisWebApplication - Started RedisWebApplication in 4.28 seconds (process running for 6.179)
+2024-10-09 17:34:18 [RMI TCP Connection(4)-127.0.0.1] INFO  [/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-10-09 17:34:18 [RMI TCP Connection(4)-127.0.0.1] INFO  DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-10-09 17:34:18 [RMI TCP Connection(4)-127.0.0.1] INFO  DispatcherServlet - Completed initialization in 3 ms
+2024-10-09 17:34:20 [Thread-1] INFO  UserBoard - 查询排行榜
+2024-10-09 17:34:52 [Thread-1] INFO  UserBoard - "e5a3bfee-868f-4681-991c-25cd3103b529"
+2024-10-09 17:34:58 [Thread-1] INFO  UserBoard - "4a6d7549-0033-4086-9a16-5c4d33855001"
+2024-10-09 17:35:04 [Thread-1] INFO  UserBoard - 查询排行榜
+2024-10-09 17:35:06 [Thread-1] INFO  UserBoard - "4a6d7549-0033-4086-9a16-5c4d33855001"
+2024-10-09 17:35:06 [Thread-1] INFO  UserBoard - "1a2d9166-bbbe-471e-8332-dac00bad3e1b"
+2024-10-09 17:35:06 [Thread-1] INFO  UserBoard - "cc2bafc6-c08b-4529-bb73-d7904cd990c3"
+2024-10-09 17:35:06 [Thread-1] INFO  UserBoard - "dd3c6973-a4cc-4dfb-8f18-896624ca108e"
+2024-10-09 17:35:06 [Thread-1] INFO  UserBoard - "e5a3bfee-868f-4681-991c-25cd3103b529"
+2024-10-09 17:35:11 [Thread-1] INFO  UserBoard - 查询排行榜
+2024-10-09 17:35:11 [Thread-1] INFO  UserBoard - "4a6d7549-0033-4086-9a16-5c4d33855001"
+2024-10-09 17:35:11 [Thread-1] INFO  UserBoard - "1a2d9166-bbbe-471e-8332-dac00bad3e1b"
+2024-10-09 17:35:11 [Thread-1] INFO  UserBoard - "cc2bafc6-c08b-4529-bb73-d7904cd990c3"
+2024-10-09 17:35:11 [Thread-1] INFO  UserBoard - "e5a3bfee-868f-4681-991c-25cd3103b529"
+2024-10-09 17:35:11 [Thread-1] INFO  UserBoard - "dd3c6973-a4cc-4dfb-8f18-896624ca108e"
+2024-10-09 17:35:13 [RMI TCP Connection(5)-127.0.0.1] INFO  SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin - Application shutdown requested.
+2024-10-09 17:35:13 [RMI TCP Connection(5)-127.0.0.1] INFO  Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8089"]
+2024-10-09 17:36:52 [main] INFO  RedisWebApplication - Starting RedisWebApplication using Java 23 with PID 3276 (D:\git\i-notes\redis\target\classes started by admin in D:\git\i-notes\redis)
+2024-10-09 17:36:52 [main] INFO  RedisWebApplication - No active profile set, falling back to 1 default profile: "default"
+2024-10-09 17:36:54 [main] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+2024-10-09 17:36:54 [main] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2024-10-09 17:36:54 [main] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 17 ms. Found 0 Redis repository interfaces.
+2024-10-09 17:36:54 [main] INFO  TomcatWebServer - Tomcat initialized with port 8089 (http)
+2024-10-09 17:36:54 [main] INFO  Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8089"]
+2024-10-09 17:36:54 [main] INFO  StandardService - Starting service [Tomcat]
+2024-10-09 17:36:54 [main] INFO  StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.30]
+2024-10-09 17:36:55 [main] INFO  [/] - Initializing Spring embedded WebApplicationContext
+2024-10-09 17:36:55 [main] INFO  ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2347 ms
+2024-10-09 17:36:56 [main] INFO  EndpointLinksResolver - Exposing 1 endpoint beneath base path '/actuator'
+2024-10-09 17:36:56 [main] INFO  Http11NioProtocol - Starting ProtocolHandler ["http-nio-8089"]
+2024-10-09 17:36:56 [main] INFO  TomcatWebServer - Tomcat started on port 8089 (http) with context path '/'
+2024-10-09 17:36:57 [main] INFO  RedisWebApplication - Started RedisWebApplication in 4.813 seconds (process running for 6.161)
+2024-10-09 17:37:02 [Thread-1] INFO  UserBoard - 查询排行榜
+2024-10-09 17:37:02 [Thread-1] INFO  UserBoard - "03ed87a3-bb97-4895-bc66-ca0d43813c90"
+2024-10-09 17:37:02 [Thread-1] INFO  UserBoard - "bd8258ef-786b-4046-bc02-1a5b020b2fb0"
+2024-10-09 17:37:07 [Thread-1] INFO  UserBoard - 查询排行榜
+2024-10-09 17:37:07 [Thread-1] INFO  UserBoard - "03ed87a3-bb97-4895-bc66-ca0d43813c90"
+2024-10-09 17:37:07 [Thread-1] INFO  UserBoard - "bd8258ef-786b-4046-bc02-1a5b020b2fb0"
+2024-10-09 17:37:07 [Thread-1] INFO  UserBoard - "4d996485-9035-44e2-8737-b792e430d7ac"
+2024-10-09 17:37:12 [Thread-1] INFO  UserBoard - 查询排行榜
+2024-10-09 17:37:12 [Thread-1] INFO  UserBoard - "d4068ef0-6928-48db-bf43-461a4f0b2561"
+2024-10-09 17:37:12 [Thread-1] INFO  UserBoard - "03ed87a3-bb97-4895-bc66-ca0d43813c90"
+2024-10-09 17:37:12 [Thread-1] INFO  UserBoard - "bd8258ef-786b-4046-bc02-1a5b020b2fb0"
+2024-10-09 17:37:12 [Thread-1] INFO  UserBoard - "4d996485-9035-44e2-8737-b792e430d7ac"
+2024-10-09 17:37:12 [Thread-1] INFO  UserBoard - "e24d14e6-9c5c-4593-a667-58462e0fba95"
+2024-10-09 17:37:17 [Thread-1] INFO  UserBoard - 查询排行榜
+2024-10-09 17:37:17 [Thread-1] INFO  UserBoard - "a6321fa9-711a-4bf5-a45c-cb118dfd8220"
+2024-10-09 17:37:17 [Thread-1] INFO  UserBoard - "d4068ef0-6928-48db-bf43-461a4f0b2561"
+2024-10-09 17:37:17 [Thread-1] INFO  UserBoard - "03ed87a3-bb97-4895-bc66-ca0d43813c90"
+2024-10-09 17:37:17 [Thread-1] INFO  UserBoard - "bd8258ef-786b-4046-bc02-1a5b020b2fb0"
+2024-10-09 17:37:17 [Thread-1] INFO  UserBoard - "4d996485-9035-44e2-8737-b792e430d7ac"
+2024-10-09 17:37:17 [Thread-1] INFO  UserBoard - "e24d14e6-9c5c-4593-a667-58462e0fba95"
+2024-10-09 17:37:23 [Thread-1] INFO  UserBoard - 查询排行榜
+2024-10-09 17:37:23 [Thread-1] INFO  UserBoard - "a6321fa9-711a-4bf5-a45c-cb118dfd8220"
+2024-10-09 17:37:23 [Thread-1] INFO  UserBoard - "d4068ef0-6928-48db-bf43-461a4f0b2561"
+2024-10-09 17:37:23 [Thread-1] INFO  UserBoard - "03ed87a3-bb97-4895-bc66-ca0d43813c90"
+2024-10-09 17:37:23 [Thread-1] INFO  UserBoard - "bd8258ef-786b-4046-bc02-1a5b020b2fb0"
+2024-10-09 17:37:23 [Thread-1] INFO  UserBoard - "7a5ebe09-995d-478a-b8b2-44c78305a028"
+2024-10-09 17:37:23 [Thread-1] INFO  UserBoard - "4d996485-9035-44e2-8737-b792e430d7ac"
+2024-10-09 17:37:23 [Thread-1] INFO  UserBoard - "a3e5fc15-90c5-4c3e-a9ae-c89246dfb2e3"
+2024-10-09 17:37:23 [Thread-1] INFO  UserBoard - "e24d14e6-9c5c-4593-a667-58462e0fba95"
+2024-10-09 17:37:28 [Thread-1] INFO  UserBoard - 查询排行榜
+2024-10-09 17:37:28 [Thread-1] INFO  UserBoard - "a6321fa9-711a-4bf5-a45c-cb118dfd8220"
+2024-10-09 17:37:28 [Thread-1] INFO  UserBoard - "d4068ef0-6928-48db-bf43-461a4f0b2561"
+2024-10-09 17:37:28 [Thread-1] INFO  UserBoard - "03ed87a3-bb97-4895-bc66-ca0d43813c90"
+2024-10-09 17:37:28 [Thread-1] INFO  UserBoard - "bd8258ef-786b-4046-bc02-1a5b020b2fb0"
+2024-10-09 17:37:28 [Thread-1] INFO  UserBoard - "7a5ebe09-995d-478a-b8b2-44c78305a028"
+2024-10-09 17:37:28 [Thread-1] INFO  UserBoard - "d0d2d3be-e1ab-4d4f-a4d2-6a9223ce3765"
+2024-10-09 17:37:28 [Thread-1] INFO  UserBoard - "4d996485-9035-44e2-8737-b792e430d7ac"
+2024-10-09 17:37:28 [Thread-1] INFO  UserBoard - "a3e5fc15-90c5-4c3e-a9ae-c89246dfb2e3"
+2024-10-09 17:37:28 [Thread-1] INFO  UserBoard - "e24d14e6-9c5c-4593-a667-58462e0fba95"
+2024-10-09 17:37:28 [Thread-1] INFO  UserBoard - "92a1be73-12fd-42c6-b627-e50c58b52615"
+2024-10-09 17:37:33 [Thread-1] INFO  UserBoard - 查询排行榜
+2024-10-09 17:37:33 [Thread-1] INFO  UserBoard - "a6321fa9-711a-4bf5-a45c-cb118dfd8220"
+2024-10-09 17:37:33 [Thread-1] INFO  UserBoard - "d4068ef0-6928-48db-bf43-461a4f0b2561"
+2024-10-09 17:37:33 [Thread-1] INFO  UserBoard - "bd8258ef-786b-4046-bc02-1a5b020b2fb0"
+2024-10-09 17:37:33 [Thread-1] INFO  UserBoard - "03ed87a3-bb97-4895-bc66-ca0d43813c90"
+2024-10-09 17:37:33 [Thread-1] INFO  UserBoard - "7a5ebe09-995d-478a-b8b2-44c78305a028"
+2024-10-09 17:37:33 [Thread-1] INFO  UserBoard - "d0d2d3be-e1ab-4d4f-a4d2-6a9223ce3765"
+2024-10-09 17:37:33 [Thread-1] INFO  UserBoard - "4d996485-9035-44e2-8737-b792e430d7ac"
+2024-10-09 17:37:33 [Thread-1] INFO  UserBoard - "a3e5fc15-90c5-4c3e-a9ae-c89246dfb2e3"
+2024-10-09 17:37:33 [Thread-1] INFO  UserBoard - "e24d14e6-9c5c-4593-a667-58462e0fba95"
+2024-10-09 17:37:33 [Thread-1] INFO  UserBoard - "92a1be73-12fd-42c6-b627-e50c58b52615"
+2024-10-09 17:37:38 [Thread-1] INFO  UserBoard - 查询排行榜
+2024-10-09 17:37:38 [Thread-1] INFO  UserBoard - "a6321fa9-711a-4bf5-a45c-cb118dfd8220"
+2024-10-09 17:37:38 [Thread-1] INFO  UserBoard - "d4068ef0-6928-48db-bf43-461a4f0b2561"
+2024-10-09 17:37:38 [Thread-1] INFO  UserBoard - "d0d2d3be-e1ab-4d4f-a4d2-6a9223ce3765"
+2024-10-09 17:37:38 [Thread-1] INFO  UserBoard - "bd8258ef-786b-4046-bc02-1a5b020b2fb0"
+2024-10-09 17:37:38 [Thread-1] INFO  UserBoard - "03ed87a3-bb97-4895-bc66-ca0d43813c90"
+2024-10-09 17:37:38 [Thread-1] INFO  UserBoard - "7a5ebe09-995d-478a-b8b2-44c78305a028"
+2024-10-09 17:37:38 [Thread-1] INFO  UserBoard - "e24d14e6-9c5c-4593-a667-58462e0fba95"
+2024-10-09 17:37:38 [Thread-1] INFO  UserBoard - "4d996485-9035-44e2-8737-b792e430d7ac"
+2024-10-09 17:37:38 [Thread-1] INFO  UserBoard - "a3e5fc15-90c5-4c3e-a9ae-c89246dfb2e3"
+2024-10-09 17:37:38 [Thread-1] INFO  UserBoard - "92a1be73-12fd-42c6-b627-e50c58b52615"
+2024-10-09 17:37:43 [Thread-1] INFO  UserBoard - 查询排行榜
+2024-10-09 17:37:43 [Thread-1] INFO  UserBoard - "a6321fa9-711a-4bf5-a45c-cb118dfd8220"
+2024-10-09 17:37:43 [Thread-1] INFO  UserBoard - "d4068ef0-6928-48db-bf43-461a4f0b2561"
+2024-10-09 17:37:43 [Thread-1] INFO  UserBoard - "d0d2d3be-e1ab-4d4f-a4d2-6a9223ce3765"
+2024-10-09 17:37:43 [Thread-1] INFO  UserBoard - "03ed87a3-bb97-4895-bc66-ca0d43813c90"
+2024-10-09 17:37:43 [Thread-1] INFO  UserBoard - "e24d14e6-9c5c-4593-a667-58462e0fba95"
+2024-10-09 17:37:43 [Thread-1] INFO  UserBoard - "4d996485-9035-44e2-8737-b792e430d7ac"
+2024-10-09 17:37:43 [Thread-1] INFO  UserBoard - "a3e5fc15-90c5-4c3e-a9ae-c89246dfb2e3"
+2024-10-09 17:37:43 [Thread-1] INFO  UserBoard - "92a1be73-12fd-42c6-b627-e50c58b52615"
+2024-10-09 17:37:43 [Thread-1] INFO  UserBoard - "7a5ebe09-995d-478a-b8b2-44c78305a028"
+2024-10-09 17:37:43 [Thread-1] INFO  UserBoard - "bd8258ef-786b-4046-bc02-1a5b020b2fb0"
+2024-10-09 17:37:49 [Thread-1] INFO  UserBoard - 查询排行榜
+2024-10-09 17:37:49 [Thread-1] INFO  UserBoard - "a6321fa9-711a-4bf5-a45c-cb118dfd8220"
+2024-10-09 17:37:49 [Thread-1] INFO  UserBoard - "d0d2d3be-e1ab-4d4f-a4d2-6a9223ce3765"
+2024-10-09 17:37:49 [Thread-1] INFO  UserBoard - "03ed87a3-bb97-4895-bc66-ca0d43813c90"
+2024-10-09 17:37:49 [Thread-1] INFO  UserBoard - "e24d14e6-9c5c-4593-a667-58462e0fba95"
+2024-10-09 17:37:49 [Thread-1] INFO  UserBoard - "4d996485-9035-44e2-8737-b792e430d7ac"
+2024-10-09 17:37:49 [Thread-1] INFO  UserBoard - "a3e5fc15-90c5-4c3e-a9ae-c89246dfb2e3"
+2024-10-09 17:37:49 [Thread-1] INFO  UserBoard - "92a1be73-12fd-42c6-b627-e50c58b52615"
+2024-10-09 17:37:49 [Thread-1] INFO  UserBoard - "7a5ebe09-995d-478a-b8b2-44c78305a028"
+2024-10-09 17:37:49 [Thread-1] INFO  UserBoard - "bd8258ef-786b-4046-bc02-1a5b020b2fb0"
+2024-10-09 17:37:49 [Thread-1] INFO  UserBoard - "d4068ef0-6928-48db-bf43-461a4f0b2561"
+2024-10-09 17:38:38 [main] INFO  RedisWebApplication - Starting RedisWebApplication using Java 23 with PID 8916 (D:\git\i-notes\redis\target\classes started by admin in D:\git\i-notes\redis)
+2024-10-09 17:38:38 [main] INFO  RedisWebApplication - No active profile set, falling back to 1 default profile: "default"
+2024-10-09 17:38:40 [main] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+2024-10-09 17:38:40 [main] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2024-10-09 17:38:40 [main] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 26 ms. Found 0 Redis repository interfaces.
+2024-10-09 17:38:41 [main] INFO  TomcatWebServer - Tomcat initialized with port 8089 (http)
+2024-10-09 17:38:41 [main] INFO  Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8089"]
+2024-10-09 17:38:41 [main] INFO  StandardService - Starting service [Tomcat]
+2024-10-09 17:38:41 [main] INFO  StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.30]
+2024-10-09 17:38:41 [main] INFO  [/] - Initializing Spring embedded WebApplicationContext
+2024-10-09 17:38:41 [main] INFO  ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2918 ms
+2024-10-09 17:38:43 [main] INFO  EndpointLinksResolver - Exposing 1 endpoint beneath base path '/actuator'
+2024-10-09 17:38:43 [main] INFO  Http11NioProtocol - Starting ProtocolHandler ["http-nio-8089"]
+2024-10-09 17:38:44 [main] INFO  TomcatWebServer - Tomcat started on port 8089 (http) with context path '/'
+2024-10-09 17:38:44 [main] INFO  RedisWebApplication - Started RedisWebApplication in 6.029 seconds (process running for 8.156)
+2024-10-09 17:38:49 [Thread-1] INFO  UserBoard - 查询排行榜
+2024-10-09 17:41:18 [main] INFO  RedisWebApplication - Starting RedisWebApplication using Java 23 with PID 10176 (D:\git\i-notes\redis\target\classes started by admin in D:\git\i-notes\redis)
+2024-10-09 17:41:18 [main] INFO  RedisWebApplication - No active profile set, falling back to 1 default profile: "default"
+2024-10-09 17:41:19 [main] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+2024-10-09 17:41:19 [main] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2024-10-09 17:41:19 [main] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 20 ms. Found 0 Redis repository interfaces.
+2024-10-09 17:41:20 [main] INFO  TomcatWebServer - Tomcat initialized with port 8089 (http)
+2024-10-09 17:41:20 [main] INFO  Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8089"]
+2024-10-09 17:41:20 [main] INFO  StandardService - Starting service [Tomcat]
+2024-10-09 17:41:20 [main] INFO  StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.30]
+2024-10-09 17:41:20 [main] INFO  [/] - Initializing Spring embedded WebApplicationContext
+2024-10-09 17:41:20 [main] INFO  ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2374 ms
+2024-10-09 17:41:22 [main] INFO  EndpointLinksResolver - Exposing 1 endpoint beneath base path '/actuator'
+2024-10-09 17:41:22 [main] INFO  Http11NioProtocol - Starting ProtocolHandler ["http-nio-8089"]
+2024-10-09 17:41:22 [main] INFO  TomcatWebServer - Tomcat started on port 8089 (http) with context path '/'
+2024-10-09 17:41:22 [main] INFO  RedisWebApplication - Started RedisWebApplication in 5.019 seconds (process running for 6.447)
+2024-10-09 17:41:24 [Thread-2] INFO  UserBoard - 添加:65aa1b49-6381-442f-8d76-a39209303377分数:37
+2024-10-09 17:41:27 [Thread-2] INFO  UserBoard - 添加:ff150e72-1662-4314-8e2c-731ea247b9be分数:42
+2024-10-09 17:41:28 [Thread-1] INFO  UserBoard - 查询排行榜
+2024-10-09 17:41:28 [Thread-1] INFO  UserBoard - "ff150e72-1662-4314-8e2c-731ea247b9be"
+2024-10-09 17:41:28 [Thread-1] INFO  UserBoard - "65aa1b49-6381-442f-8d76-a39209303377"
+2024-10-09 17:41:31 [Thread-2] INFO  UserBoard - 添加:610c936d-5bdb-4f98-8979-61f79ea9907e分数:50
+2024-10-09 17:41:33 [Thread-1] INFO  UserBoard - 查询排行榜
+2024-10-09 17:41:33 [Thread-1] INFO  UserBoard - "610c936d-5bdb-4f98-8979-61f79ea9907e"
+2024-10-09 17:41:33 [Thread-1] INFO  UserBoard - "ff150e72-1662-4314-8e2c-731ea247b9be"
+2024-10-09 17:41:33 [Thread-1] INFO  UserBoard - "65aa1b49-6381-442f-8d76-a39209303377"
+2024-10-09 17:41:34 [Thread-2] INFO  UserBoard - 添加:147eea8a-7c69-4d42-80aa-24b2008372f7分数:64
+2024-10-09 17:41:37 [Thread-2] INFO  UserBoard - 添加:329e6c91-c55b-4f2b-a64b-99d97cf529c9分数:46
+2024-10-09 17:41:38 [Thread-1] INFO  UserBoard - 查询排行榜
+2024-10-09 17:41:38 [Thread-1] INFO  UserBoard - "147eea8a-7c69-4d42-80aa-24b2008372f7"
+2024-10-09 17:41:38 [Thread-1] INFO  UserBoard - "610c936d-5bdb-4f98-8979-61f79ea9907e"
+2024-10-09 17:41:38 [Thread-1] INFO  UserBoard - "329e6c91-c55b-4f2b-a64b-99d97cf529c9"
+2024-10-09 17:41:38 [Thread-1] INFO  UserBoard - "ff150e72-1662-4314-8e2c-731ea247b9be"
+2024-10-09 17:41:38 [Thread-1] INFO  UserBoard - "65aa1b49-6381-442f-8d76-a39209303377"
+2024-10-09 17:41:40 [Thread-2] INFO  UserBoard - 添加:cc517302-f408-4a6b-bf0e-8ed7ae643631分数:81
+2024-10-09 17:41:43 [Thread-1] INFO  UserBoard - 查询排行榜
+2024-10-09 17:41:43 [Thread-1] INFO  UserBoard - "cc517302-f408-4a6b-bf0e-8ed7ae643631"
+2024-10-09 17:41:43 [Thread-1] INFO  UserBoard - "147eea8a-7c69-4d42-80aa-24b2008372f7"
+2024-10-09 17:41:43 [Thread-1] INFO  UserBoard - "610c936d-5bdb-4f98-8979-61f79ea9907e"
+2024-10-09 17:41:43 [Thread-1] INFO  UserBoard - "329e6c91-c55b-4f2b-a64b-99d97cf529c9"
+2024-10-09 17:41:43 [Thread-1] INFO  UserBoard - "ff150e72-1662-4314-8e2c-731ea247b9be"
+2024-10-09 17:41:43 [Thread-1] INFO  UserBoard - "65aa1b49-6381-442f-8d76-a39209303377"
+2024-10-09 17:41:44 [Thread-2] INFO  UserBoard - 添加:3d790f7e-ef91-4d83-bc86-cfa36522ae07分数:84
+2024-10-09 17:41:47 [Thread-2] INFO  UserBoard - 添加:6c141959-1d3d-45c8-8b9a-8f9f0e793bf6分数:89
+2024-10-09 17:41:49 [Thread-1] INFO  UserBoard - 查询排行榜
+2024-10-09 17:41:49 [Thread-1] INFO  UserBoard - "6c141959-1d3d-45c8-8b9a-8f9f0e793bf6"
+2024-10-09 17:41:49 [Thread-1] INFO  UserBoard - "3d790f7e-ef91-4d83-bc86-cfa36522ae07"
+2024-10-09 17:41:49 [Thread-1] INFO  UserBoard - "cc517302-f408-4a6b-bf0e-8ed7ae643631"
+2024-10-09 17:41:49 [Thread-1] INFO  UserBoard - "147eea8a-7c69-4d42-80aa-24b2008372f7"
+2024-10-09 17:41:49 [Thread-1] INFO  UserBoard - "610c936d-5bdb-4f98-8979-61f79ea9907e"
+2024-10-09 17:41:49 [Thread-1] INFO  UserBoard - "329e6c91-c55b-4f2b-a64b-99d97cf529c9"
+2024-10-09 17:41:49 [Thread-1] INFO  UserBoard - "ff150e72-1662-4314-8e2c-731ea247b9be"
+2024-10-09 17:41:49 [Thread-1] INFO  UserBoard - "65aa1b49-6381-442f-8d76-a39209303377"
+2024-10-09 17:41:50 [Thread-2] INFO  UserBoard - 添加:067cbdf4-6733-4be4-b974-0fa7af8322c9分数:16
+2024-10-09 17:41:53 [Thread-2] INFO  UserBoard - 添加:2af3a31d-a119-42fe-bed2-004194d9131a分数:33
+2024-10-09 17:41:54 [Thread-1] INFO  UserBoard - 查询排行榜
+2024-10-09 17:41:54 [Thread-1] INFO  UserBoard - "6c141959-1d3d-45c8-8b9a-8f9f0e793bf6"
+2024-10-09 17:41:54 [Thread-1] INFO  UserBoard - "3d790f7e-ef91-4d83-bc86-cfa36522ae07"
+2024-10-09 17:41:54 [Thread-1] INFO  UserBoard - "cc517302-f408-4a6b-bf0e-8ed7ae643631"
+2024-10-09 17:41:54 [Thread-1] INFO  UserBoard - "147eea8a-7c69-4d42-80aa-24b2008372f7"
+2024-10-09 17:41:54 [Thread-1] INFO  UserBoard - "610c936d-5bdb-4f98-8979-61f79ea9907e"
+2024-10-09 17:41:54 [Thread-1] INFO  UserBoard - "329e6c91-c55b-4f2b-a64b-99d97cf529c9"
+2024-10-09 17:41:54 [Thread-1] INFO  UserBoard - "ff150e72-1662-4314-8e2c-731ea247b9be"
+2024-10-09 17:41:54 [Thread-1] INFO  UserBoard - "65aa1b49-6381-442f-8d76-a39209303377"
+2024-10-09 17:41:54 [Thread-1] INFO  UserBoard - "2af3a31d-a119-42fe-bed2-004194d9131a"
+2024-10-09 17:41:54 [Thread-1] INFO  UserBoard - "067cbdf4-6733-4be4-b974-0fa7af8322c9"
+2024-10-09 17:41:59 [Thread-1] INFO  UserBoard - 查询排行榜
+2024-10-09 17:41:59 [Thread-1] INFO  UserBoard - "6c141959-1d3d-45c8-8b9a-8f9f0e793bf6"
+2024-10-09 17:41:59 [Thread-1] INFO  UserBoard - "3d790f7e-ef91-4d83-bc86-cfa36522ae07"
+2024-10-09 17:41:59 [Thread-1] INFO  UserBoard - "cc517302-f408-4a6b-bf0e-8ed7ae643631"
+2024-10-09 17:41:59 [Thread-1] INFO  UserBoard - "147eea8a-7c69-4d42-80aa-24b2008372f7"
+2024-10-09 17:41:59 [Thread-1] INFO  UserBoard - "610c936d-5bdb-4f98-8979-61f79ea9907e"
+2024-10-09 17:41:59 [Thread-1] INFO  UserBoard - "ff150e72-1662-4314-8e2c-731ea247b9be"
+2024-10-09 17:41:59 [Thread-1] INFO  UserBoard - "65aa1b49-6381-442f-8d76-a39209303377"
+2024-10-09 17:41:59 [Thread-1] INFO  UserBoard - "329e6c91-c55b-4f2b-a64b-99d97cf529c9"
+2024-10-09 17:41:59 [Thread-1] INFO  UserBoard - "2af3a31d-a119-42fe-bed2-004194d9131a"
+2024-10-09 17:41:59 [Thread-1] INFO  UserBoard - "067cbdf4-6733-4be4-b974-0fa7af8322c9"
+2024-10-09 17:42:04 [Thread-1] INFO  UserBoard - 查询排行榜
+2024-10-09 17:42:04 [Thread-1] INFO  UserBoard - "6c141959-1d3d-45c8-8b9a-8f9f0e793bf6"
+2024-10-09 17:42:04 [Thread-1] INFO  UserBoard - "147eea8a-7c69-4d42-80aa-24b2008372f7"
+2024-10-09 17:42:04 [Thread-1] INFO  UserBoard - "cc517302-f408-4a6b-bf0e-8ed7ae643631"
+2024-10-09 17:42:04 [Thread-1] INFO  UserBoard - "610c936d-5bdb-4f98-8979-61f79ea9907e"
+2024-10-09 17:42:04 [Thread-1] INFO  UserBoard - "ff150e72-1662-4314-8e2c-731ea247b9be"
+2024-10-09 17:42:04 [Thread-1] INFO  UserBoard - "65aa1b49-6381-442f-8d76-a39209303377"
+2024-10-09 17:42:04 [Thread-1] INFO  UserBoard - "329e6c91-c55b-4f2b-a64b-99d97cf529c9"
+2024-10-09 17:42:04 [Thread-1] INFO  UserBoard - "2af3a31d-a119-42fe-bed2-004194d9131a"
+2024-10-09 17:42:04 [Thread-1] INFO  UserBoard - "067cbdf4-6733-4be4-b974-0fa7af8322c9"
+2024-10-09 17:42:04 [Thread-1] INFO  UserBoard - "3d790f7e-ef91-4d83-bc86-cfa36522ae07"
+2024-10-09 17:46:45 [main] INFO  RedisWebApplication - Starting RedisWebApplication using Java 23 with PID 6964 (D:\git\i-notes\redis\target\classes started by admin in D:\git\i-notes\redis)
+2024-10-09 17:46:45 [main] INFO  RedisWebApplication - No active profile set, falling back to 1 default profile: "default"
+2024-10-09 17:46:46 [main] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+2024-10-09 17:46:46 [main] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2024-10-09 17:46:46 [main] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 22 ms. Found 0 Redis repository interfaces.
+2024-10-09 17:46:47 [main] INFO  TomcatWebServer - Tomcat initialized with port 8089 (http)
+2024-10-09 17:46:47 [main] INFO  Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8089"]
+2024-10-09 17:46:47 [main] INFO  StandardService - Starting service [Tomcat]
+2024-10-09 17:46:47 [main] INFO  StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.30]
+2024-10-09 17:46:47 [main] INFO  [/] - Initializing Spring embedded WebApplicationContext
+2024-10-09 17:46:47 [main] INFO  ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2556 ms
+2024-10-09 17:46:49 [main] INFO  EndpointLinksResolver - Exposing 1 endpoint beneath base path '/actuator'
+2024-10-09 17:46:49 [main] INFO  Http11NioProtocol - Starting ProtocolHandler ["http-nio-8089"]
+2024-10-09 17:46:49 [main] INFO  TomcatWebServer - Tomcat started on port 8089 (http) with context path '/'
+2024-10-09 17:46:49 [main] INFO  RedisWebApplication - Started RedisWebApplication in 5.102 seconds (process running for 6.566)
+2024-10-09 17:46:51 [Thread-2] INFO  UserBoard - 添加:063d0d39-f208-4394-8601-5f89fdf9ac94分数:76
+2024-10-09 17:46:54 [Thread-2] INFO  UserBoard - 添加:4687d524-dc13-49fd-bfcb-8039b01c3bd2分数:73
+2024-10-09 17:46:54 [Thread-1] INFO  UserBoard - 查询排行榜
+2024-10-09 17:46:54 [Thread-1] INFO  UserBoard - "4687d524-dc13-49fd-bfcb-8039b01c3bd2"
+2024-10-09 17:46:54 [Thread-1] INFO  UserBoard - "063d0d39-f208-4394-8601-5f89fdf9ac94"
+2024-10-09 17:46:57 [Thread-2] INFO  UserBoard - 添加:cadcdc8c-af7c-418e-89e4-110bfc058275分数:14
+2024-10-09 17:47:00 [Thread-1] INFO  UserBoard - 查询排行榜
+2024-10-09 17:47:00 [Thread-1] INFO  UserBoard - "cadcdc8c-af7c-418e-89e4-110bfc058275"
+2024-10-09 17:47:00 [Thread-1] INFO  UserBoard - "4687d524-dc13-49fd-bfcb-8039b01c3bd2"
+2024-10-09 17:47:00 [Thread-1] INFO  UserBoard - "063d0d39-f208-4394-8601-5f89fdf9ac94"
+2024-10-09 17:47:00 [Thread-2] INFO  UserBoard - 添加:b70040b3-7416-4ccc-ba04-7be68d32c47d分数:15
+2024-10-09 17:47:04 [Thread-2] INFO  UserBoard - 添加:80342550-5afc-42d0-b676-0f51c84a728c分数:52
+2024-10-09 17:47:05 [Thread-1] INFO  UserBoard - 查询排行榜
+2024-10-09 17:47:05 [Thread-1] INFO  UserBoard - "cadcdc8c-af7c-418e-89e4-110bfc058275"
+2024-10-09 17:47:05 [Thread-1] INFO  UserBoard - "b70040b3-7416-4ccc-ba04-7be68d32c47d"
+2024-10-09 17:47:05 [Thread-1] INFO  UserBoard - "80342550-5afc-42d0-b676-0f51c84a728c"
+2024-10-09 17:47:05 [Thread-1] INFO  UserBoard - "4687d524-dc13-49fd-bfcb-8039b01c3bd2"
+2024-10-09 17:47:05 [Thread-1] INFO  UserBoard - "063d0d39-f208-4394-8601-5f89fdf9ac94"
+2024-10-09 17:47:07 [Thread-2] INFO  UserBoard - 添加:1106c8db-c858-445a-93bc-36dbfd62c2df分数:93
+2024-10-09 17:47:10 [Thread-1] INFO  UserBoard - 查询排行榜
+2024-10-09 17:47:10 [Thread-1] INFO  UserBoard - "cadcdc8c-af7c-418e-89e4-110bfc058275"
+2024-10-09 17:47:10 [Thread-1] INFO  UserBoard - "b70040b3-7416-4ccc-ba04-7be68d32c47d"
+2024-10-09 17:47:10 [Thread-1] INFO  UserBoard - "80342550-5afc-42d0-b676-0f51c84a728c"
+2024-10-09 17:47:10 [Thread-1] INFO  UserBoard - "4687d524-dc13-49fd-bfcb-8039b01c3bd2"
+2024-10-09 17:47:10 [Thread-1] INFO  UserBoard - "063d0d39-f208-4394-8601-5f89fdf9ac94"
+2024-10-09 17:47:10 [Thread-1] INFO  UserBoard - "1106c8db-c858-445a-93bc-36dbfd62c2df"
+2024-10-09 17:47:10 [Thread-2] INFO  UserBoard - 添加:22fe111c-ac79-4d38-92f2-8b9433b62892分数:74
+2024-10-09 17:47:13 [Thread-2] INFO  UserBoard - 添加:63fafbab-2c66-4745-a6d2-6753f26e499b分数:14
+2024-10-09 17:47:15 [Thread-1] INFO  UserBoard - 查询排行榜
+2024-10-09 17:47:15 [Thread-1] INFO  UserBoard - "63fafbab-2c66-4745-a6d2-6753f26e499b"
+2024-10-09 17:47:15 [Thread-1] INFO  UserBoard - "cadcdc8c-af7c-418e-89e4-110bfc058275"
+2024-10-09 17:47:15 [Thread-1] INFO  UserBoard - "b70040b3-7416-4ccc-ba04-7be68d32c47d"
+2024-10-09 17:47:15 [Thread-1] INFO  UserBoard - "80342550-5afc-42d0-b676-0f51c84a728c"
+2024-10-09 17:47:15 [Thread-1] INFO  UserBoard - "4687d524-dc13-49fd-bfcb-8039b01c3bd2"
+2024-10-09 17:47:15 [Thread-1] INFO  UserBoard - "22fe111c-ac79-4d38-92f2-8b9433b62892"
+2024-10-09 17:47:15 [Thread-1] INFO  UserBoard - "063d0d39-f208-4394-8601-5f89fdf9ac94"
+2024-10-09 17:47:15 [Thread-1] INFO  UserBoard - "1106c8db-c858-445a-93bc-36dbfd62c2df"
+2024-10-09 17:47:16 [Thread-2] INFO  UserBoard - 添加:e8439f3f-1470-40d7-8d2d-37511d989a40分数:93
+2024-10-09 17:47:20 [Thread-2] INFO  UserBoard - 添加:4e9f4f6d-8bf3-4b34-9ac6-350430605ca0分数:65
+2024-10-09 17:47:20 [Thread-1] INFO  UserBoard - 查询排行榜
+2024-10-09 17:47:20 [Thread-1] INFO  UserBoard - "63fafbab-2c66-4745-a6d2-6753f26e499b"
+2024-10-09 17:47:20 [Thread-1] INFO  UserBoard - "cadcdc8c-af7c-418e-89e4-110bfc058275"
+2024-10-09 17:47:20 [Thread-1] INFO  UserBoard - "b70040b3-7416-4ccc-ba04-7be68d32c47d"
+2024-10-09 17:47:20 [Thread-1] INFO  UserBoard - "80342550-5afc-42d0-b676-0f51c84a728c"
+2024-10-09 17:47:20 [Thread-1] INFO  UserBoard - "4e9f4f6d-8bf3-4b34-9ac6-350430605ca0"
+2024-10-09 17:47:20 [Thread-1] INFO  UserBoard - "4687d524-dc13-49fd-bfcb-8039b01c3bd2"
+2024-10-09 17:47:20 [Thread-1] INFO  UserBoard - "22fe111c-ac79-4d38-92f2-8b9433b62892"
+2024-10-09 17:47:20 [Thread-1] INFO  UserBoard - "063d0d39-f208-4394-8601-5f89fdf9ac94"
+2024-10-09 17:47:20 [Thread-1] INFO  UserBoard - "1106c8db-c858-445a-93bc-36dbfd62c2df"
+2024-10-09 17:47:20 [Thread-1] INFO  UserBoard - "e8439f3f-1470-40d7-8d2d-37511d989a40"
+2024-10-09 17:47:23 [Thread-2] INFO  UserBoard - 修改:1106c8db-c858-445a-93bc-36dbfd62c2df分数:12
+2024-10-09 17:47:26 [Thread-1] INFO  UserBoard - 查询排行榜
+2024-10-09 17:47:26 [Thread-1] INFO  UserBoard - "1106c8db-c858-445a-93bc-36dbfd62c2df"
+2024-10-09 17:47:26 [Thread-1] INFO  UserBoard - "63fafbab-2c66-4745-a6d2-6753f26e499b"
+2024-10-09 17:47:26 [Thread-1] INFO  UserBoard - "cadcdc8c-af7c-418e-89e4-110bfc058275"
+2024-10-09 17:47:26 [Thread-1] INFO  UserBoard - "b70040b3-7416-4ccc-ba04-7be68d32c47d"
+2024-10-09 17:47:26 [Thread-1] INFO  UserBoard - "80342550-5afc-42d0-b676-0f51c84a728c"
+2024-10-09 17:47:26 [Thread-1] INFO  UserBoard - "4e9f4f6d-8bf3-4b34-9ac6-350430605ca0"
+2024-10-09 17:47:26 [Thread-1] INFO  UserBoard - "4687d524-dc13-49fd-bfcb-8039b01c3bd2"
+2024-10-09 17:47:26 [Thread-1] INFO  UserBoard - "22fe111c-ac79-4d38-92f2-8b9433b62892"
+2024-10-09 17:47:26 [Thread-1] INFO  UserBoard - "063d0d39-f208-4394-8601-5f89fdf9ac94"
+2024-10-09 17:47:26 [Thread-1] INFO  UserBoard - "e8439f3f-1470-40d7-8d2d-37511d989a40"
+2024-10-09 17:47:26 [Thread-2] INFO  UserBoard - 修改:b70040b3-7416-4ccc-ba04-7be68d32c47d分数:67
+2024-10-09 17:47:29 [Thread-2] INFO  UserBoard - 修改:1106c8db-c858-445a-93bc-36dbfd62c2df分数:27
+2024-10-09 17:47:31 [Thread-1] INFO  UserBoard - 查询排行榜
+2024-10-09 17:47:31 [Thread-1] INFO  UserBoard - "63fafbab-2c66-4745-a6d2-6753f26e499b"
+2024-10-09 17:47:31 [Thread-1] INFO  UserBoard - "cadcdc8c-af7c-418e-89e4-110bfc058275"
+2024-10-09 17:47:31 [Thread-1] INFO  UserBoard - "1106c8db-c858-445a-93bc-36dbfd62c2df"
+2024-10-09 17:47:31 [Thread-1] INFO  UserBoard - "80342550-5afc-42d0-b676-0f51c84a728c"
+2024-10-09 17:47:31 [Thread-1] INFO  UserBoard - "4e9f4f6d-8bf3-4b34-9ac6-350430605ca0"
+2024-10-09 17:47:31 [Thread-1] INFO  UserBoard - "b70040b3-7416-4ccc-ba04-7be68d32c47d"
+2024-10-09 17:47:31 [Thread-1] INFO  UserBoard - "4687d524-dc13-49fd-bfcb-8039b01c3bd2"
+2024-10-09 17:47:31 [Thread-1] INFO  UserBoard - "22fe111c-ac79-4d38-92f2-8b9433b62892"
+2024-10-09 17:47:31 [Thread-1] INFO  UserBoard - "063d0d39-f208-4394-8601-5f89fdf9ac94"
+2024-10-09 17:47:31 [Thread-1] INFO  UserBoard - "e8439f3f-1470-40d7-8d2d-37511d989a40"
+2024-10-09 17:47:33 [Thread-2] INFO  UserBoard - 修改:1106c8db-c858-445a-93bc-36dbfd62c2df分数:14
+2024-10-09 17:47:36 [Thread-2] INFO  UserBoard - 修改:80342550-5afc-42d0-b676-0f51c84a728c分数:70
+2024-10-09 17:47:36 [Thread-1] INFO  UserBoard - 查询排行榜
+2024-10-09 17:47:36 [Thread-1] INFO  UserBoard - "1106c8db-c858-445a-93bc-36dbfd62c2df"
+2024-10-09 17:47:36 [Thread-1] INFO  UserBoard - "63fafbab-2c66-4745-a6d2-6753f26e499b"
+2024-10-09 17:47:36 [Thread-1] INFO  UserBoard - "cadcdc8c-af7c-418e-89e4-110bfc058275"
+2024-10-09 17:47:36 [Thread-1] INFO  UserBoard - "4e9f4f6d-8bf3-4b34-9ac6-350430605ca0"
+2024-10-09 17:47:36 [Thread-1] INFO  UserBoard - "b70040b3-7416-4ccc-ba04-7be68d32c47d"
+2024-10-09 17:47:36 [Thread-1] INFO  UserBoard - "80342550-5afc-42d0-b676-0f51c84a728c"
+2024-10-09 17:47:36 [Thread-1] INFO  UserBoard - "4687d524-dc13-49fd-bfcb-8039b01c3bd2"
+2024-10-09 17:47:36 [Thread-1] INFO  UserBoard - "22fe111c-ac79-4d38-92f2-8b9433b62892"
+2024-10-09 17:47:36 [Thread-1] INFO  UserBoard - "063d0d39-f208-4394-8601-5f89fdf9ac94"
+2024-10-09 17:47:36 [Thread-1] INFO  UserBoard - "e8439f3f-1470-40d7-8d2d-37511d989a40"
+2024-10-09 17:47:39 [Thread-2] INFO  UserBoard - 修改:22fe111c-ac79-4d38-92f2-8b9433b62892分数:50
+2024-10-09 17:47:41 [Thread-1] INFO  UserBoard - 查询排行榜
+2024-10-09 17:47:41 [Thread-1] INFO  UserBoard - "1106c8db-c858-445a-93bc-36dbfd62c2df"
+2024-10-09 17:47:41 [Thread-1] INFO  UserBoard - "63fafbab-2c66-4745-a6d2-6753f26e499b"
+2024-10-09 17:47:41 [Thread-1] INFO  UserBoard - "cadcdc8c-af7c-418e-89e4-110bfc058275"
+2024-10-09 17:47:41 [Thread-1] INFO  UserBoard - "22fe111c-ac79-4d38-92f2-8b9433b62892"
+2024-10-09 17:47:41 [Thread-1] INFO  UserBoard - "4e9f4f6d-8bf3-4b34-9ac6-350430605ca0"
+2024-10-09 17:47:41 [Thread-1] INFO  UserBoard - "b70040b3-7416-4ccc-ba04-7be68d32c47d"
+2024-10-09 17:47:41 [Thread-1] INFO  UserBoard - "80342550-5afc-42d0-b676-0f51c84a728c"
+2024-10-09 17:47:41 [Thread-1] INFO  UserBoard - "4687d524-dc13-49fd-bfcb-8039b01c3bd2"
+2024-10-09 17:47:41 [Thread-1] INFO  UserBoard - "063d0d39-f208-4394-8601-5f89fdf9ac94"
+2024-10-09 17:47:41 [Thread-1] INFO  UserBoard - "e8439f3f-1470-40d7-8d2d-37511d989a40"
+2024-10-09 17:47:42 [Thread-2] INFO  UserBoard - 修改:63fafbab-2c66-4745-a6d2-6753f26e499b分数:83
+2024-10-09 17:47:45 [Thread-2] INFO  UserBoard - 修改:063d0d39-f208-4394-8601-5f89fdf9ac94分数:58
+2024-10-09 17:47:47 [Thread-1] INFO  UserBoard - 查询排行榜
+2024-10-09 17:47:47 [Thread-1] INFO  UserBoard - "1106c8db-c858-445a-93bc-36dbfd62c2df"
+2024-10-09 17:47:47 [Thread-1] INFO  UserBoard - "cadcdc8c-af7c-418e-89e4-110bfc058275"
+2024-10-09 17:47:47 [Thread-1] INFO  UserBoard - "22fe111c-ac79-4d38-92f2-8b9433b62892"
+2024-10-09 17:47:47 [Thread-1] INFO  UserBoard - "063d0d39-f208-4394-8601-5f89fdf9ac94"
+2024-10-09 17:47:47 [Thread-1] INFO  UserBoard - "4e9f4f6d-8bf3-4b34-9ac6-350430605ca0"
+2024-10-09 17:47:47 [Thread-1] INFO  UserBoard - "b70040b3-7416-4ccc-ba04-7be68d32c47d"
+2024-10-09 17:47:47 [Thread-1] INFO  UserBoard - "80342550-5afc-42d0-b676-0f51c84a728c"
+2024-10-09 17:47:47 [Thread-1] INFO  UserBoard - "4687d524-dc13-49fd-bfcb-8039b01c3bd2"
+2024-10-09 17:47:47 [Thread-1] INFO  UserBoard - "63fafbab-2c66-4745-a6d2-6753f26e499b"
+2024-10-09 17:47:47 [Thread-1] INFO  UserBoard - "e8439f3f-1470-40d7-8d2d-37511d989a40"
+2024-10-09 17:47:49 [Thread-2] INFO  UserBoard - 修改:1106c8db-c858-445a-93bc-36dbfd62c2df分数:98
+2024-10-09 17:47:52 [Thread-1] INFO  UserBoard - 查询排行榜
+2024-10-09 17:47:52 [Thread-1] INFO  UserBoard - "cadcdc8c-af7c-418e-89e4-110bfc058275"
+2024-10-09 17:47:52 [Thread-1] INFO  UserBoard - "22fe111c-ac79-4d38-92f2-8b9433b62892"
+2024-10-09 17:47:52 [Thread-1] INFO  UserBoard - "063d0d39-f208-4394-8601-5f89fdf9ac94"
+2024-10-09 17:47:52 [Thread-1] INFO  UserBoard - "4e9f4f6d-8bf3-4b34-9ac6-350430605ca0"
+2024-10-09 17:47:52 [Thread-1] INFO  UserBoard - "b70040b3-7416-4ccc-ba04-7be68d32c47d"
+2024-10-09 17:47:52 [Thread-1] INFO  UserBoard - "80342550-5afc-42d0-b676-0f51c84a728c"
+2024-10-09 17:47:52 [Thread-1] INFO  UserBoard - "4687d524-dc13-49fd-bfcb-8039b01c3bd2"
+2024-10-09 17:47:52 [Thread-1] INFO  UserBoard - "63fafbab-2c66-4745-a6d2-6753f26e499b"
+2024-10-09 17:47:52 [Thread-1] INFO  UserBoard - "e8439f3f-1470-40d7-8d2d-37511d989a40"
+2024-10-09 17:47:52 [Thread-1] INFO  UserBoard - "1106c8db-c858-445a-93bc-36dbfd62c2df"
+2024-10-09 17:47:52 [Thread-2] INFO  UserBoard - 修改:4e9f4f6d-8bf3-4b34-9ac6-350430605ca0分数:54
+2024-10-09 17:47:55 [Thread-2] INFO  UserBoard - 修改:063d0d39-f208-4394-8601-5f89fdf9ac94分数:50
+2024-10-09 17:47:57 [Thread-1] INFO  UserBoard - 查询排行榜
+2024-10-09 17:47:57 [Thread-1] INFO  UserBoard - "cadcdc8c-af7c-418e-89e4-110bfc058275"
+2024-10-09 17:47:57 [Thread-1] INFO  UserBoard - "063d0d39-f208-4394-8601-5f89fdf9ac94"
+2024-10-09 17:47:57 [Thread-1] INFO  UserBoard - "22fe111c-ac79-4d38-92f2-8b9433b62892"
+2024-10-09 17:47:57 [Thread-1] INFO  UserBoard - "4e9f4f6d-8bf3-4b34-9ac6-350430605ca0"
+2024-10-09 17:47:57 [Thread-1] INFO  UserBoard - "b70040b3-7416-4ccc-ba04-7be68d32c47d"
+2024-10-09 17:47:57 [Thread-1] INFO  UserBoard - "80342550-5afc-42d0-b676-0f51c84a728c"
+2024-10-09 17:47:57 [Thread-1] INFO  UserBoard - "4687d524-dc13-49fd-bfcb-8039b01c3bd2"
+2024-10-09 17:47:57 [Thread-1] INFO  UserBoard - "63fafbab-2c66-4745-a6d2-6753f26e499b"
+2024-10-09 17:47:57 [Thread-1] INFO  UserBoard - "e8439f3f-1470-40d7-8d2d-37511d989a40"
+2024-10-09 17:47:57 [Thread-1] INFO  UserBoard - "1106c8db-c858-445a-93bc-36dbfd62c2df"
+2024-10-09 17:47:58 [Thread-2] INFO  UserBoard - 修改:4e9f4f6d-8bf3-4b34-9ac6-350430605ca0分数:49
+2024-10-09 17:48:01 [Thread-2] INFO  UserBoard - 修改:80342550-5afc-42d0-b676-0f51c84a728c分数:91
+2024-10-09 17:48:02 [Thread-1] INFO  UserBoard - 查询排行榜
+2024-10-09 17:48:02 [Thread-1] INFO  UserBoard - "cadcdc8c-af7c-418e-89e4-110bfc058275"
+2024-10-09 17:48:02 [Thread-1] INFO  UserBoard - "4e9f4f6d-8bf3-4b34-9ac6-350430605ca0"
+2024-10-09 17:48:02 [Thread-1] INFO  UserBoard - "063d0d39-f208-4394-8601-5f89fdf9ac94"
+2024-10-09 17:48:02 [Thread-1] INFO  UserBoard - "22fe111c-ac79-4d38-92f2-8b9433b62892"
+2024-10-09 17:48:02 [Thread-1] INFO  UserBoard - "b70040b3-7416-4ccc-ba04-7be68d32c47d"
+2024-10-09 17:48:02 [Thread-1] INFO  UserBoard - "4687d524-dc13-49fd-bfcb-8039b01c3bd2"
+2024-10-09 17:48:02 [Thread-1] INFO  UserBoard - "63fafbab-2c66-4745-a6d2-6753f26e499b"
+2024-10-09 17:48:02 [Thread-1] INFO  UserBoard - "80342550-5afc-42d0-b676-0f51c84a728c"
+2024-10-09 17:48:02 [Thread-1] INFO  UserBoard - "e8439f3f-1470-40d7-8d2d-37511d989a40"
+2024-10-09 17:48:02 [Thread-1] INFO  UserBoard - "1106c8db-c858-445a-93bc-36dbfd62c2df"
+2024-10-09 17:48:05 [Thread-2] INFO  UserBoard - 修改:b70040b3-7416-4ccc-ba04-7be68d32c47d分数:77
+2024-10-09 17:48:07 [Thread-1] INFO  UserBoard - 查询排行榜
+2024-10-09 17:48:07 [Thread-1] INFO  UserBoard - "cadcdc8c-af7c-418e-89e4-110bfc058275"
+2024-10-09 17:48:07 [Thread-1] INFO  UserBoard - "4e9f4f6d-8bf3-4b34-9ac6-350430605ca0"
+2024-10-09 17:48:07 [Thread-1] INFO  UserBoard - "063d0d39-f208-4394-8601-5f89fdf9ac94"
+2024-10-09 17:48:07 [Thread-1] INFO  UserBoard - "22fe111c-ac79-4d38-92f2-8b9433b62892"
+2024-10-09 17:48:07 [Thread-1] INFO  UserBoard - "4687d524-dc13-49fd-bfcb-8039b01c3bd2"
+2024-10-09 17:48:07 [Thread-1] INFO  UserBoard - "b70040b3-7416-4ccc-ba04-7be68d32c47d"
+2024-10-09 17:48:07 [Thread-1] INFO  UserBoard - "63fafbab-2c66-4745-a6d2-6753f26e499b"
+2024-10-09 17:48:07 [Thread-1] INFO  UserBoard - "80342550-5afc-42d0-b676-0f51c84a728c"
+2024-10-09 17:48:07 [Thread-1] INFO  UserBoard - "e8439f3f-1470-40d7-8d2d-37511d989a40"
+2024-10-09 17:48:07 [Thread-1] INFO  UserBoard - "1106c8db-c858-445a-93bc-36dbfd62c2df"
+2024-10-09 17:48:08 [Thread-2] INFO  UserBoard - 修改:63fafbab-2c66-4745-a6d2-6753f26e499b分数:96
+2024-10-09 17:48:11 [Thread-2] INFO  UserBoard - 修改:cadcdc8c-af7c-418e-89e4-110bfc058275分数:83
+2024-10-09 17:48:13 [Thread-1] INFO  UserBoard - 查询排行榜
+2024-10-09 17:48:13 [Thread-1] INFO  UserBoard - "4e9f4f6d-8bf3-4b34-9ac6-350430605ca0"
+2024-10-09 17:48:13 [Thread-1] INFO  UserBoard - "063d0d39-f208-4394-8601-5f89fdf9ac94"
+2024-10-09 17:48:13 [Thread-1] INFO  UserBoard - "22fe111c-ac79-4d38-92f2-8b9433b62892"
+2024-10-09 17:48:13 [Thread-1] INFO  UserBoard - "4687d524-dc13-49fd-bfcb-8039b01c3bd2"
+2024-10-09 17:48:13 [Thread-1] INFO  UserBoard - "b70040b3-7416-4ccc-ba04-7be68d32c47d"
+2024-10-09 17:48:13 [Thread-1] INFO  UserBoard - "cadcdc8c-af7c-418e-89e4-110bfc058275"
+2024-10-09 17:48:13 [Thread-1] INFO  UserBoard - "80342550-5afc-42d0-b676-0f51c84a728c"
+2024-10-09 17:48:13 [Thread-1] INFO  UserBoard - "e8439f3f-1470-40d7-8d2d-37511d989a40"
+2024-10-09 17:48:13 [Thread-1] INFO  UserBoard - "63fafbab-2c66-4745-a6d2-6753f26e499b"
+2024-10-09 17:48:13 [Thread-1] INFO  UserBoard - "1106c8db-c858-445a-93bc-36dbfd62c2df"
+2024-10-09 17:48:14 [Thread-2] INFO  UserBoard - 修改:80342550-5afc-42d0-b676-0f51c84a728c分数:7
+2024-10-09 17:48:17 [Thread-2] INFO  UserBoard - 修改:4e9f4f6d-8bf3-4b34-9ac6-350430605ca0分数:97
+2024-10-09 17:48:18 [Thread-1] INFO  UserBoard - 查询排行榜
+2024-10-09 17:48:18 [Thread-1] INFO  UserBoard - "80342550-5afc-42d0-b676-0f51c84a728c"
+2024-10-09 17:48:18 [Thread-1] INFO  UserBoard - "063d0d39-f208-4394-8601-5f89fdf9ac94"
+2024-10-09 17:48:18 [Thread-1] INFO  UserBoard - "22fe111c-ac79-4d38-92f2-8b9433b62892"
+2024-10-09 17:48:18 [Thread-1] INFO  UserBoard - "4687d524-dc13-49fd-bfcb-8039b01c3bd2"
+2024-10-09 17:48:18 [Thread-1] INFO  UserBoard - "b70040b3-7416-4ccc-ba04-7be68d32c47d"
+2024-10-09 17:48:18 [Thread-1] INFO  UserBoard - "cadcdc8c-af7c-418e-89e4-110bfc058275"
+2024-10-09 17:48:18 [Thread-1] INFO  UserBoard - "e8439f3f-1470-40d7-8d2d-37511d989a40"
+2024-10-09 17:48:18 [Thread-1] INFO  UserBoard - "63fafbab-2c66-4745-a6d2-6753f26e499b"
+2024-10-09 17:48:18 [Thread-1] INFO  UserBoard - "4e9f4f6d-8bf3-4b34-9ac6-350430605ca0"
+2024-10-09 17:48:18 [Thread-1] INFO  UserBoard - "1106c8db-c858-445a-93bc-36dbfd62c2df"
+2024-10-09 17:48:21 [Thread-2] INFO  UserBoard - 修改:22fe111c-ac79-4d38-92f2-8b9433b62892分数:76
+2024-10-09 17:48:23 [Thread-1] INFO  UserBoard - 查询排行榜
+2024-10-09 17:48:23 [Thread-1] INFO  UserBoard - "80342550-5afc-42d0-b676-0f51c84a728c"
+2024-10-09 17:48:23 [Thread-1] INFO  UserBoard - "063d0d39-f208-4394-8601-5f89fdf9ac94"
+2024-10-09 17:48:23 [Thread-1] INFO  UserBoard - "4687d524-dc13-49fd-bfcb-8039b01c3bd2"
+2024-10-09 17:48:23 [Thread-1] INFO  UserBoard - "22fe111c-ac79-4d38-92f2-8b9433b62892"
+2024-10-09 17:48:23 [Thread-1] INFO  UserBoard - "b70040b3-7416-4ccc-ba04-7be68d32c47d"
+2024-10-09 17:48:23 [Thread-1] INFO  UserBoard - "cadcdc8c-af7c-418e-89e4-110bfc058275"
+2024-10-09 17:48:23 [Thread-1] INFO  UserBoard - "e8439f3f-1470-40d7-8d2d-37511d989a40"
+2024-10-09 17:48:23 [Thread-1] INFO  UserBoard - "63fafbab-2c66-4745-a6d2-6753f26e499b"
+2024-10-09 17:48:23 [Thread-1] INFO  UserBoard - "4e9f4f6d-8bf3-4b34-9ac6-350430605ca0"
+2024-10-09 17:48:23 [Thread-1] INFO  UserBoard - "1106c8db-c858-445a-93bc-36dbfd62c2df"
+2024-10-09 17:48:24 [Thread-2] INFO  UserBoard - 修改:1106c8db-c858-445a-93bc-36dbfd62c2df分数:12
+2024-10-09 17:48:27 [Thread-2] INFO  UserBoard - 修改:4687d524-dc13-49fd-bfcb-8039b01c3bd2分数:5
+2024-10-09 17:48:28 [Thread-1] INFO  UserBoard - 查询排行榜
+2024-10-09 17:48:28 [Thread-1] INFO  UserBoard - "4687d524-dc13-49fd-bfcb-8039b01c3bd2"
+2024-10-09 17:48:28 [Thread-1] INFO  UserBoard - "80342550-5afc-42d0-b676-0f51c84a728c"
+2024-10-09 17:48:28 [Thread-1] INFO  UserBoard - "1106c8db-c858-445a-93bc-36dbfd62c2df"
+2024-10-09 17:48:28 [Thread-1] INFO  UserBoard - "063d0d39-f208-4394-8601-5f89fdf9ac94"
+2024-10-09 17:48:28 [Thread-1] INFO  UserBoard - "22fe111c-ac79-4d38-92f2-8b9433b62892"
+2024-10-09 17:48:28 [Thread-1] INFO  UserBoard - "b70040b3-7416-4ccc-ba04-7be68d32c47d"
+2024-10-09 17:48:28 [Thread-1] INFO  UserBoard - "cadcdc8c-af7c-418e-89e4-110bfc058275"
+2024-10-09 17:48:28 [Thread-1] INFO  UserBoard - "e8439f3f-1470-40d7-8d2d-37511d989a40"
+2024-10-09 17:48:28 [Thread-1] INFO  UserBoard - "63fafbab-2c66-4745-a6d2-6753f26e499b"
+2024-10-09 17:48:28 [Thread-1] INFO  UserBoard - "4e9f4f6d-8bf3-4b34-9ac6-350430605ca0"
+2024-10-09 17:48:30 [Thread-2] INFO  UserBoard - 修改:80342550-5afc-42d0-b676-0f51c84a728c分数:42
+2024-10-09 17:48:33 [Thread-1] INFO  UserBoard - 查询排行榜
+2024-10-09 17:48:33 [Thread-1] INFO  UserBoard - "4687d524-dc13-49fd-bfcb-8039b01c3bd2"
+2024-10-09 17:48:33 [Thread-1] INFO  UserBoard - "1106c8db-c858-445a-93bc-36dbfd62c2df"
+2024-10-09 17:48:33 [Thread-1] INFO  UserBoard - "80342550-5afc-42d0-b676-0f51c84a728c"
+2024-10-09 17:48:33 [Thread-1] INFO  UserBoard - "063d0d39-f208-4394-8601-5f89fdf9ac94"
+2024-10-09 17:48:33 [Thread-1] INFO  UserBoard - "22fe111c-ac79-4d38-92f2-8b9433b62892"
+2024-10-09 17:48:33 [Thread-1] INFO  UserBoard - "b70040b3-7416-4ccc-ba04-7be68d32c47d"
+2024-10-09 17:48:33 [Thread-1] INFO  UserBoard - "cadcdc8c-af7c-418e-89e4-110bfc058275"
+2024-10-09 17:48:33 [Thread-1] INFO  UserBoard - "e8439f3f-1470-40d7-8d2d-37511d989a40"
+2024-10-09 17:48:33 [Thread-1] INFO  UserBoard - "63fafbab-2c66-4745-a6d2-6753f26e499b"
+2024-10-09 17:48:33 [Thread-1] INFO  UserBoard - "4e9f4f6d-8bf3-4b34-9ac6-350430605ca0"
+2024-10-09 17:48:33 [Thread-2] INFO  UserBoard - 修改:b70040b3-7416-4ccc-ba04-7be68d32c47d分数:77
+2024-10-09 17:48:37 [Thread-2] INFO  UserBoard - 修改:063d0d39-f208-4394-8601-5f89fdf9ac94分数:50
+2024-10-09 17:48:39 [Thread-1] INFO  UserBoard - 查询排行榜
+2024-10-09 17:48:39 [Thread-1] INFO  UserBoard - "4687d524-dc13-49fd-bfcb-8039b01c3bd2"
+2024-10-09 17:48:39 [Thread-1] INFO  UserBoard - "1106c8db-c858-445a-93bc-36dbfd62c2df"
+2024-10-09 17:48:39 [Thread-1] INFO  UserBoard - "80342550-5afc-42d0-b676-0f51c84a728c"
+2024-10-09 17:48:39 [Thread-1] INFO  UserBoard - "063d0d39-f208-4394-8601-5f89fdf9ac94"
+2024-10-09 17:48:39 [Thread-1] INFO  UserBoard - "22fe111c-ac79-4d38-92f2-8b9433b62892"
+2024-10-09 17:48:39 [Thread-1] INFO  UserBoard - "b70040b3-7416-4ccc-ba04-7be68d32c47d"
+2024-10-09 17:48:39 [Thread-1] INFO  UserBoard - "cadcdc8c-af7c-418e-89e4-110bfc058275"
+2024-10-09 17:48:39 [Thread-1] INFO  UserBoard - "e8439f3f-1470-40d7-8d2d-37511d989a40"
+2024-10-09 17:48:39 [Thread-1] INFO  UserBoard - "63fafbab-2c66-4745-a6d2-6753f26e499b"
+2024-10-09 17:48:39 [Thread-1] INFO  UserBoard - "4e9f4f6d-8bf3-4b34-9ac6-350430605ca0"
+2024-10-09 17:48:40 [Thread-2] INFO  UserBoard - 修改:cadcdc8c-af7c-418e-89e4-110bfc058275分数:58
+2024-10-09 17:48:43 [Thread-2] INFO  UserBoard - 修改:1106c8db-c858-445a-93bc-36dbfd62c2df分数:6
+2024-10-09 17:48:44 [Thread-1] INFO  UserBoard - 查询排行榜
+2024-10-09 17:48:44 [Thread-1] INFO  UserBoard - "4687d524-dc13-49fd-bfcb-8039b01c3bd2"
+2024-10-09 17:48:44 [Thread-1] INFO  UserBoard - "1106c8db-c858-445a-93bc-36dbfd62c2df"
+2024-10-09 17:48:44 [Thread-1] INFO  UserBoard - "80342550-5afc-42d0-b676-0f51c84a728c"
+2024-10-09 17:48:44 [Thread-1] INFO  UserBoard - "063d0d39-f208-4394-8601-5f89fdf9ac94"
+2024-10-09 17:48:44 [Thread-1] INFO  UserBoard - "cadcdc8c-af7c-418e-89e4-110bfc058275"
+2024-10-09 17:48:44 [Thread-1] INFO  UserBoard - "22fe111c-ac79-4d38-92f2-8b9433b62892"
+2024-10-09 17:48:44 [Thread-1] INFO  UserBoard - "b70040b3-7416-4ccc-ba04-7be68d32c47d"
+2024-10-09 17:48:44 [Thread-1] INFO  UserBoard - "e8439f3f-1470-40d7-8d2d-37511d989a40"
+2024-10-09 17:48:44 [Thread-1] INFO  UserBoard - "63fafbab-2c66-4745-a6d2-6753f26e499b"
+2024-10-09 17:48:44 [Thread-1] INFO  UserBoard - "4e9f4f6d-8bf3-4b34-9ac6-350430605ca0"
+2024-10-09 17:48:46 [Thread-2] INFO  UserBoard - 修改:e8439f3f-1470-40d7-8d2d-37511d989a40分数:42
+2024-10-09 17:48:49 [Thread-1] INFO  UserBoard - 查询排行榜
+2024-10-09 17:48:49 [Thread-1] INFO  UserBoard - "4687d524-dc13-49fd-bfcb-8039b01c3bd2"
+2024-10-09 17:48:49 [Thread-1] INFO  UserBoard - "1106c8db-c858-445a-93bc-36dbfd62c2df"
+2024-10-09 17:48:49 [Thread-1] INFO  UserBoard - "80342550-5afc-42d0-b676-0f51c84a728c"
+2024-10-09 17:48:49 [Thread-1] INFO  UserBoard - "e8439f3f-1470-40d7-8d2d-37511d989a40"
+2024-10-09 17:48:49 [Thread-1] INFO  UserBoard - "063d0d39-f208-4394-8601-5f89fdf9ac94"
+2024-10-09 17:48:49 [Thread-1] INFO  UserBoard - "cadcdc8c-af7c-418e-89e4-110bfc058275"
+2024-10-09 17:48:49 [Thread-1] INFO  UserBoard - "22fe111c-ac79-4d38-92f2-8b9433b62892"
+2024-10-09 17:48:49 [Thread-1] INFO  UserBoard - "b70040b3-7416-4ccc-ba04-7be68d32c47d"
+2024-10-09 17:48:49 [Thread-1] INFO  UserBoard - "63fafbab-2c66-4745-a6d2-6753f26e499b"
+2024-10-09 17:48:49 [Thread-1] INFO  UserBoard - "4e9f4f6d-8bf3-4b34-9ac6-350430605ca0"
+2024-10-09 17:48:49 [Thread-2] INFO  UserBoard - 修改:e8439f3f-1470-40d7-8d2d-37511d989a40分数:21
+2024-10-09 17:48:53 [Thread-2] INFO  UserBoard - 修改:22fe111c-ac79-4d38-92f2-8b9433b62892分数:49
+2024-10-09 17:48:54 [Thread-1] INFO  UserBoard - 查询排行榜
+2024-10-09 17:48:54 [Thread-1] INFO  UserBoard - "4687d524-dc13-49fd-bfcb-8039b01c3bd2"
+2024-10-09 17:48:54 [Thread-1] INFO  UserBoard - "1106c8db-c858-445a-93bc-36dbfd62c2df"
+2024-10-09 17:48:54 [Thread-1] INFO  UserBoard - "e8439f3f-1470-40d7-8d2d-37511d989a40"
+2024-10-09 17:48:54 [Thread-1] INFO  UserBoard - "80342550-5afc-42d0-b676-0f51c84a728c"
+2024-10-09 17:48:54 [Thread-1] INFO  UserBoard - "22fe111c-ac79-4d38-92f2-8b9433b62892"
+2024-10-09 17:48:54 [Thread-1] INFO  UserBoard - "063d0d39-f208-4394-8601-5f89fdf9ac94"
+2024-10-09 17:48:54 [Thread-1] INFO  UserBoard - "cadcdc8c-af7c-418e-89e4-110bfc058275"
+2024-10-09 17:48:54 [Thread-1] INFO  UserBoard - "b70040b3-7416-4ccc-ba04-7be68d32c47d"
+2024-10-09 17:48:54 [Thread-1] INFO  UserBoard - "63fafbab-2c66-4745-a6d2-6753f26e499b"
+2024-10-09 17:48:54 [Thread-1] INFO  UserBoard - "4e9f4f6d-8bf3-4b34-9ac6-350430605ca0"
+2024-10-09 17:48:56 [Thread-2] INFO  UserBoard - 修改:22fe111c-ac79-4d38-92f2-8b9433b62892分数:85
+2024-10-09 17:48:59 [Thread-2] INFO  UserBoard - 修改:80342550-5afc-42d0-b676-0f51c84a728c分数:3
+2024-10-09 17:48:59 [Thread-1] INFO  UserBoard - 查询排行榜
+2024-10-09 17:48:59 [Thread-1] INFO  UserBoard - "80342550-5afc-42d0-b676-0f51c84a728c"
+2024-10-09 17:48:59 [Thread-1] INFO  UserBoard - "4687d524-dc13-49fd-bfcb-8039b01c3bd2"
+2024-10-09 17:48:59 [Thread-1] INFO  UserBoard - "1106c8db-c858-445a-93bc-36dbfd62c2df"
+2024-10-09 17:48:59 [Thread-1] INFO  UserBoard - "e8439f3f-1470-40d7-8d2d-37511d989a40"
+2024-10-09 17:48:59 [Thread-1] INFO  UserBoard - "063d0d39-f208-4394-8601-5f89fdf9ac94"
+2024-10-09 17:48:59 [Thread-1] INFO  UserBoard - "cadcdc8c-af7c-418e-89e4-110bfc058275"
+2024-10-09 17:48:59 [Thread-1] INFO  UserBoard - "b70040b3-7416-4ccc-ba04-7be68d32c47d"
+2024-10-09 17:48:59 [Thread-1] INFO  UserBoard - "22fe111c-ac79-4d38-92f2-8b9433b62892"
+2024-10-09 17:48:59 [Thread-1] INFO  UserBoard - "63fafbab-2c66-4745-a6d2-6753f26e499b"
+2024-10-09 17:48:59 [Thread-1] INFO  UserBoard - "4e9f4f6d-8bf3-4b34-9ac6-350430605ca0"
+2024-10-09 17:49:02 [Thread-2] INFO  UserBoard - 修改:4e9f4f6d-8bf3-4b34-9ac6-350430605ca0分数:11
+2024-10-09 17:49:05 [Thread-1] INFO  UserBoard - 查询排行榜
+2024-10-09 17:49:05 [Thread-1] INFO  UserBoard - "80342550-5afc-42d0-b676-0f51c84a728c"
+2024-10-09 17:49:05 [Thread-1] INFO  UserBoard - "4687d524-dc13-49fd-bfcb-8039b01c3bd2"
+2024-10-09 17:49:05 [Thread-1] INFO  UserBoard - "1106c8db-c858-445a-93bc-36dbfd62c2df"
+2024-10-09 17:49:05 [Thread-1] INFO  UserBoard - "4e9f4f6d-8bf3-4b34-9ac6-350430605ca0"
+2024-10-09 17:49:05 [Thread-1] INFO  UserBoard - "e8439f3f-1470-40d7-8d2d-37511d989a40"
+2024-10-09 17:49:05 [Thread-1] INFO  UserBoard - "063d0d39-f208-4394-8601-5f89fdf9ac94"
+2024-10-09 17:49:05 [Thread-1] INFO  UserBoard - "cadcdc8c-af7c-418e-89e4-110bfc058275"
+2024-10-09 17:49:05 [Thread-1] INFO  UserBoard - "b70040b3-7416-4ccc-ba04-7be68d32c47d"
+2024-10-09 17:49:05 [Thread-1] INFO  UserBoard - "22fe111c-ac79-4d38-92f2-8b9433b62892"
+2024-10-09 17:49:05 [Thread-1] INFO  UserBoard - "63fafbab-2c66-4745-a6d2-6753f26e499b"
+2024-10-09 17:49:05 [Thread-2] INFO  UserBoard - 修改:1106c8db-c858-445a-93bc-36dbfd62c2df分数:13
+2024-10-09 17:49:09 [Thread-2] INFO  UserBoard - 修改:1106c8db-c858-445a-93bc-36dbfd62c2df分数:78
+2024-10-09 17:49:10 [Thread-1] INFO  UserBoard - 查询排行榜
+2024-10-09 17:49:10 [Thread-1] INFO  UserBoard - "80342550-5afc-42d0-b676-0f51c84a728c"
+2024-10-09 17:49:10 [Thread-1] INFO  UserBoard - "4687d524-dc13-49fd-bfcb-8039b01c3bd2"
+2024-10-09 17:49:10 [Thread-1] INFO  UserBoard - "4e9f4f6d-8bf3-4b34-9ac6-350430605ca0"
+2024-10-09 17:49:10 [Thread-1] INFO  UserBoard - "e8439f3f-1470-40d7-8d2d-37511d989a40"
+2024-10-09 17:49:10 [Thread-1] INFO  UserBoard - "063d0d39-f208-4394-8601-5f89fdf9ac94"
+2024-10-09 17:49:10 [Thread-1] INFO  UserBoard - "cadcdc8c-af7c-418e-89e4-110bfc058275"
+2024-10-09 17:49:10 [Thread-1] INFO  UserBoard - "b70040b3-7416-4ccc-ba04-7be68d32c47d"
+2024-10-09 17:49:10 [Thread-1] INFO  UserBoard - "1106c8db-c858-445a-93bc-36dbfd62c2df"
+2024-10-09 17:49:10 [Thread-1] INFO  UserBoard - "22fe111c-ac79-4d38-92f2-8b9433b62892"
+2024-10-09 17:49:10 [Thread-1] INFO  UserBoard - "63fafbab-2c66-4745-a6d2-6753f26e499b"
+2024-10-09 17:49:12 [Thread-2] INFO  UserBoard - 修改:4687d524-dc13-49fd-bfcb-8039b01c3bd2分数:58
+2024-10-09 17:49:15 [Thread-1] INFO  UserBoard - 查询排行榜
+2024-10-09 17:49:15 [Thread-1] INFO  UserBoard - "80342550-5afc-42d0-b676-0f51c84a728c"
+2024-10-09 17:49:15 [Thread-1] INFO  UserBoard - "4e9f4f6d-8bf3-4b34-9ac6-350430605ca0"
+2024-10-09 17:49:15 [Thread-1] INFO  UserBoard - "e8439f3f-1470-40d7-8d2d-37511d989a40"
+2024-10-09 17:49:15 [Thread-1] INFO  UserBoard - "063d0d39-f208-4394-8601-5f89fdf9ac94"
+2024-10-09 17:49:15 [Thread-1] INFO  UserBoard - "4687d524-dc13-49fd-bfcb-8039b01c3bd2"
+2024-10-09 17:49:15 [Thread-1] INFO  UserBoard - "cadcdc8c-af7c-418e-89e4-110bfc058275"
+2024-10-09 17:49:15 [Thread-1] INFO  UserBoard - "b70040b3-7416-4ccc-ba04-7be68d32c47d"
+2024-10-09 17:49:15 [Thread-1] INFO  UserBoard - "1106c8db-c858-445a-93bc-36dbfd62c2df"
+2024-10-09 17:49:15 [Thread-1] INFO  UserBoard - "22fe111c-ac79-4d38-92f2-8b9433b62892"
+2024-10-09 17:49:15 [Thread-1] INFO  UserBoard - "63fafbab-2c66-4745-a6d2-6753f26e499b"
+2024-10-09 17:49:15 [Thread-2] INFO  UserBoard - 修改:1106c8db-c858-445a-93bc-36dbfd62c2df分数:49
+2024-10-09 17:49:18 [Thread-2] INFO  UserBoard - 修改:1106c8db-c858-445a-93bc-36dbfd62c2df分数:78
+2024-10-09 17:49:20 [Thread-1] INFO  UserBoard - 查询排行榜
+2024-10-09 17:49:20 [Thread-1] INFO  UserBoard - "80342550-5afc-42d0-b676-0f51c84a728c"
+2024-10-09 17:49:20 [Thread-1] INFO  UserBoard - "4e9f4f6d-8bf3-4b34-9ac6-350430605ca0"
+2024-10-09 17:49:20 [Thread-1] INFO  UserBoard - "e8439f3f-1470-40d7-8d2d-37511d989a40"
+2024-10-09 17:49:20 [Thread-1] INFO  UserBoard - "063d0d39-f208-4394-8601-5f89fdf9ac94"
+2024-10-09 17:49:20 [Thread-1] INFO  UserBoard - "4687d524-dc13-49fd-bfcb-8039b01c3bd2"
+2024-10-09 17:49:20 [Thread-1] INFO  UserBoard - "cadcdc8c-af7c-418e-89e4-110bfc058275"
+2024-10-09 17:49:20 [Thread-1] INFO  UserBoard - "b70040b3-7416-4ccc-ba04-7be68d32c47d"
+2024-10-09 17:49:20 [Thread-1] INFO  UserBoard - "1106c8db-c858-445a-93bc-36dbfd62c2df"
+2024-10-09 17:49:20 [Thread-1] INFO  UserBoard - "22fe111c-ac79-4d38-92f2-8b9433b62892"
+2024-10-09 17:49:20 [Thread-1] INFO  UserBoard - "63fafbab-2c66-4745-a6d2-6753f26e499b"
+2024-10-09 17:49:21 [Thread-2] INFO  UserBoard - 修改:22fe111c-ac79-4d38-92f2-8b9433b62892分数:96
+2024-10-09 17:49:25 [Thread-2] INFO  UserBoard - 修改:063d0d39-f208-4394-8601-5f89fdf9ac94分数:86
+2024-10-09 17:49:25 [Thread-1] INFO  UserBoard - 查询排行榜
+2024-10-09 17:49:25 [Thread-1] INFO  UserBoard - "80342550-5afc-42d0-b676-0f51c84a728c"
+2024-10-09 17:49:25 [Thread-1] INFO  UserBoard - "4e9f4f6d-8bf3-4b34-9ac6-350430605ca0"
+2024-10-09 17:49:25 [Thread-1] INFO  UserBoard - "e8439f3f-1470-40d7-8d2d-37511d989a40"
+2024-10-09 17:49:25 [Thread-1] INFO  UserBoard - "4687d524-dc13-49fd-bfcb-8039b01c3bd2"
+2024-10-09 17:49:25 [Thread-1] INFO  UserBoard - "cadcdc8c-af7c-418e-89e4-110bfc058275"
+2024-10-09 17:49:25 [Thread-1] INFO  UserBoard - "b70040b3-7416-4ccc-ba04-7be68d32c47d"
+2024-10-09 17:49:25 [Thread-1] INFO  UserBoard - "1106c8db-c858-445a-93bc-36dbfd62c2df"
+2024-10-09 17:49:25 [Thread-1] INFO  UserBoard - "063d0d39-f208-4394-8601-5f89fdf9ac94"
+2024-10-09 17:49:25 [Thread-1] INFO  UserBoard - "22fe111c-ac79-4d38-92f2-8b9433b62892"
+2024-10-09 17:49:25 [Thread-1] INFO  UserBoard - "63fafbab-2c66-4745-a6d2-6753f26e499b"
+2024-10-09 17:54:44 [main] INFO  RedisWebApplication - Starting RedisWebApplication using Java 23 with PID 5744 (D:\git\i-notes\redis\target\classes started by admin in D:\git\i-notes\redis)
+2024-10-09 17:54:44 [main] INFO  RedisWebApplication - No active profile set, falling back to 1 default profile: "default"
+2024-10-09 17:54:45 [main] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+2024-10-09 17:54:45 [main] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2024-10-09 17:54:45 [main] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 16 ms. Found 0 Redis repository interfaces.
+2024-10-09 17:54:46 [main] INFO  TomcatWebServer - Tomcat initialized with port 8089 (http)
+2024-10-09 17:54:46 [main] INFO  Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8089"]
+2024-10-09 17:54:46 [main] INFO  StandardService - Starting service [Tomcat]
+2024-10-09 17:54:46 [main] INFO  StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.30]
+2024-10-09 17:54:46 [main] INFO  [/] - Initializing Spring embedded WebApplicationContext
+2024-10-09 17:54:46 [main] INFO  ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2441 ms
+2024-10-09 17:54:48 [main] INFO  EndpointLinksResolver - Exposing 1 endpoint beneath base path '/actuator'
+2024-10-09 17:54:48 [main] INFO  Http11NioProtocol - Starting ProtocolHandler ["http-nio-8089"]
+2024-10-09 17:54:48 [main] INFO  TomcatWebServer - Tomcat started on port 8089 (http) with context path '/'
+2024-10-09 17:54:48 [main] INFO  RedisWebApplication - Started RedisWebApplication in 4.899 seconds (process running for 6.349)
+2024-10-09 17:54:50 [Thread-2] INFO  UserBoard - 添加:name-0分数:64
+2024-10-09 17:54:53 [Thread-2] INFO  UserBoard - 添加:name-1分数:18
+2024-10-09 17:54:53 [Thread-1] INFO  UserBoard - 查询排行榜
+2024-10-09 17:54:54 [Thread-1] INFO  UserBoard - "name-0"分数：64.0
+2024-10-09 17:54:54 [Thread-1] INFO  UserBoard - "name-1"分数：18.0
+2024-10-09 17:54:56 [Thread-2] INFO  UserBoard - 添加:name-2分数:92
+2024-10-09 17:54:59 [Thread-1] INFO  UserBoard - 查询排行榜
+2024-10-09 17:54:59 [Thread-1] INFO  UserBoard - "name-2"分数：92.0
+2024-10-09 17:54:59 [Thread-2] INFO  UserBoard - 添加:name-3分数:93
+2024-10-09 17:54:59 [Thread-1] INFO  UserBoard - "name-0"分数：64.0
+2024-10-09 17:55:00 [Thread-1] INFO  UserBoard - "name-1"分数：18.0
+2024-10-09 17:55:03 [Thread-2] INFO  UserBoard - 添加:name-4分数:54
+2024-10-09 17:55:05 [Thread-1] INFO  UserBoard - 查询排行榜
+2024-10-09 17:55:05 [Thread-1] INFO  UserBoard - "name-3"分数：93.0
+2024-10-09 17:55:05 [Thread-1] INFO  UserBoard - "name-2"分数：92.0
+2024-10-09 17:55:05 [Thread-1] INFO  UserBoard - "name-0"分数：64.0
+2024-10-09 17:55:06 [Thread-1] INFO  UserBoard - "name-4"分数：54.0
+2024-10-09 17:55:06 [Thread-2] INFO  UserBoard - 添加:name-5分数:5
+2024-10-09 17:55:06 [Thread-1] INFO  UserBoard - "name-1"分数：18.0
+2024-10-09 17:55:09 [Thread-2] INFO  UserBoard - 添加:name-6分数:33
+2024-10-09 17:55:11 [Thread-1] INFO  UserBoard - 查询排行榜
+2024-10-09 17:55:11 [Thread-1] INFO  UserBoard - "name-3"分数：93.0
+2024-10-09 17:55:12 [Thread-1] INFO  UserBoard - "name-2"分数：92.0
+2024-10-09 17:55:12 [Thread-1] INFO  UserBoard - "name-0"分数：64.0
+2024-10-09 17:55:12 [Thread-1] INFO  UserBoard - "name-4"分数：54.0
+2024-10-09 17:55:12 [Thread-1] INFO  UserBoard - "name-6"分数：33.0
+2024-10-09 17:55:12 [Thread-2] INFO  UserBoard - 添加:name-7分数:74
+2024-10-09 17:55:12 [Thread-1] INFO  UserBoard - "name-1"分数：18.0
+2024-10-09 17:55:13 [Thread-1] INFO  UserBoard - "name-5"分数：5.0
+2024-10-09 17:55:15 [Thread-2] INFO  UserBoard - 添加:name-8分数:64
+2024-10-09 17:55:18 [Thread-1] INFO  UserBoard - 查询排行榜
+2024-10-09 17:55:18 [Thread-1] INFO  UserBoard - "name-3"分数：93.0
+2024-10-09 17:55:18 [Thread-1] INFO  UserBoard - "name-2"分数：92.0
+2024-10-09 17:55:18 [Thread-1] INFO  UserBoard - "name-7"分数：74.0
+2024-10-09 17:55:19 [Thread-1] INFO  UserBoard - "name-8"分数：64.0
+2024-10-09 17:55:19 [Thread-2] INFO  UserBoard - 添加:name-9分数:79
+2024-10-09 17:55:19 [Thread-1] INFO  UserBoard - "name-0"分数：64.0
+2024-10-09 17:55:19 [Thread-1] INFO  UserBoard - "name-4"分数：54.0
+2024-10-09 17:55:19 [Thread-1] INFO  UserBoard - "name-6"分数：33.0
+2024-10-09 17:55:19 [Thread-1] INFO  UserBoard - "name-1"分数：18.0
+2024-10-09 17:55:20 [Thread-1] INFO  UserBoard - "name-5"分数：5.0
+2024-10-09 17:55:22 [Thread-2] INFO  UserBoard - 修改:name-5分数:37
+2024-10-09 17:55:25 [Thread-1] INFO  UserBoard - 查询排行榜
+2024-10-09 17:55:25 [Thread-1] INFO  UserBoard - "name-3"分数：93.0
+2024-10-09 17:55:25 [Thread-2] INFO  UserBoard - 修改:name-9分数:69
+2024-10-09 17:55:25 [Thread-1] INFO  UserBoard - "name-2"分数：92.0
+2024-10-09 17:55:25 [Thread-1] INFO  UserBoard - "name-9"分数：69.0
+2024-10-09 17:55:26 [Thread-1] INFO  UserBoard - "name-7"分数：74.0
+2024-10-09 17:55:26 [Thread-1] INFO  UserBoard - "name-8"分数：64.0
+2024-10-09 17:55:26 [Thread-1] INFO  UserBoard - "name-0"分数：64.0
+2024-10-09 17:55:26 [Thread-1] INFO  UserBoard - "name-4"分数：54.0
+2024-10-09 17:55:26 [Thread-1] INFO  UserBoard - "name-5"分数：37.0
+2024-10-09 17:55:27 [Thread-1] INFO  UserBoard - "name-6"分数：33.0
+2024-10-09 17:55:27 [Thread-1] INFO  UserBoard - "name-1"分数：18.0
+2024-10-09 17:55:28 [Thread-2] INFO  UserBoard - 修改:name-5分数:78
+2024-10-09 17:55:31 [Thread-2] INFO  UserBoard - 修改:name-1分数:29
+2024-10-09 17:55:32 [Thread-1] INFO  UserBoard - 查询排行榜
+2024-10-09 17:55:32 [Thread-1] INFO  UserBoard - "name-3"分数：93.0
+2024-10-09 17:55:32 [Thread-1] INFO  UserBoard - "name-2"分数：92.0
+2024-10-09 17:55:33 [Thread-1] INFO  UserBoard - "name-5"分数：78.0
+2024-10-09 17:55:33 [Thread-1] INFO  UserBoard - "name-7"分数：74.0
+2024-10-09 17:55:33 [Thread-1] INFO  UserBoard - "name-9"分数：69.0
+2024-10-09 17:55:33 [Thread-1] INFO  UserBoard - "name-8"分数：64.0
+2024-10-09 17:55:33 [Thread-1] INFO  UserBoard - "name-0"分数：64.0
+2024-10-09 17:55:34 [Thread-1] INFO  UserBoard - "name-4"分数：54.0
+2024-10-09 17:55:34 [Thread-1] INFO  UserBoard - "name-6"分数：33.0
+2024-10-09 17:55:34 [Thread-1] INFO  UserBoard - "name-1"分数：29.0
+2024-10-09 17:55:35 [Thread-2] INFO  UserBoard - 修改:name-0分数:95
+2024-10-09 17:55:56 [main] INFO  RedisWebApplication - Starting RedisWebApplication using Java 23 with PID 2356 (D:\git\i-notes\redis\target\classes started by admin in D:\git\i-notes\redis)
+2024-10-09 17:55:56 [main] INFO  RedisWebApplication - No active profile set, falling back to 1 default profile: "default"
+2024-10-09 17:55:57 [main] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+2024-10-09 17:55:57 [main] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2024-10-09 17:55:57 [main] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 16 ms. Found 0 Redis repository interfaces.
+2024-10-09 17:55:58 [main] INFO  TomcatWebServer - Tomcat initialized with port 8089 (http)
+2024-10-09 17:55:58 [main] INFO  Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8089"]
+2024-10-09 17:55:58 [main] INFO  StandardService - Starting service [Tomcat]
+2024-10-09 17:55:58 [main] INFO  StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.30]
+2024-10-09 17:55:58 [main] INFO  [/] - Initializing Spring embedded WebApplicationContext
+2024-10-09 17:55:58 [main] INFO  ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2443 ms
+2024-10-09 17:56:00 [main] INFO  EndpointLinksResolver - Exposing 1 endpoint beneath base path '/actuator'
+2024-10-09 17:56:00 [main] INFO  Http11NioProtocol - Starting ProtocolHandler ["http-nio-8089"]
+2024-10-09 17:56:00 [main] INFO  TomcatWebServer - Tomcat started on port 8089 (http) with context path '/'
+2024-10-09 17:56:00 [main] INFO  RedisWebApplication - Started RedisWebApplication in 4.888 seconds (process running for 6.336)
+2024-10-09 17:56:02 [Thread-2] INFO  UserBoard - 添加:name-0分数:24
+2024-10-09 17:56:05 [Thread-2] INFO  UserBoard - 添加:name-1分数:12
+2024-10-09 17:56:05 [Thread-1] INFO  UserBoard - 查询排行榜
+2024-10-09 17:56:05 [Thread-1] INFO  UserBoard - "name-0"分数：24.0
+2024-10-09 17:56:08 [Thread-2] INFO  UserBoard - 添加:name-2分数:81
+2024-10-09 17:56:11 [Thread-1] INFO  UserBoard - 查询排行榜
+2024-10-09 17:56:11 [Thread-1] INFO  UserBoard - "name-2"分数：81.0
+2024-10-09 17:56:11 [Thread-1] INFO  UserBoard - "name-0"分数：24.0
+2024-10-09 17:56:11 [Thread-1] INFO  UserBoard - "name-1"分数：12.0
+2024-10-09 17:56:11 [Thread-2] INFO  UserBoard - 添加:name-3分数:76
+2024-10-09 17:56:15 [Thread-2] INFO  UserBoard - 添加:name-4分数:27
+2024-10-09 17:56:16 [Thread-1] INFO  UserBoard - 查询排行榜
+2024-10-09 17:56:17 [Thread-1] INFO  UserBoard - "name-2"分数：81.0
+2024-10-09 17:56:17 [Thread-1] INFO  UserBoard - "name-3"分数：76.0
+2024-10-09 17:56:17 [Thread-1] INFO  UserBoard - "name-4"分数：27.0
+2024-10-09 17:56:17 [Thread-1] INFO  UserBoard - "name-0"分数：24.0
+2024-10-09 17:56:18 [Thread-1] INFO  UserBoard - "name-1"分数：12.0
+2024-10-09 17:56:18 [Thread-2] INFO  UserBoard - 添加:name-5分数:70
+2024-10-09 17:56:36 [main] INFO  RedisWebApplication - Starting RedisWebApplication using Java 23 with PID 1252 (D:\git\i-notes\redis\target\classes started by admin in D:\git\i-notes\redis)
+2024-10-09 17:56:36 [main] INFO  RedisWebApplication - No active profile set, falling back to 1 default profile: "default"
+2024-10-09 17:56:37 [main] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+2024-10-09 17:56:37 [main] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2024-10-09 17:56:37 [main] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 19 ms. Found 0 Redis repository interfaces.
+2024-10-09 17:56:38 [main] INFO  TomcatWebServer - Tomcat initialized with port 8089 (http)
+2024-10-09 17:56:38 [main] INFO  Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8089"]
+2024-10-09 17:56:38 [main] INFO  StandardService - Starting service [Tomcat]
+2024-10-09 17:56:38 [main] INFO  StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.30]
+2024-10-09 17:56:38 [main] INFO  [/] - Initializing Spring embedded WebApplicationContext
+2024-10-09 17:56:38 [main] INFO  ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2310 ms
+2024-10-09 17:56:40 [main] INFO  EndpointLinksResolver - Exposing 1 endpoint beneath base path '/actuator'
+2024-10-09 17:56:40 [main] INFO  Http11NioProtocol - Starting ProtocolHandler ["http-nio-8089"]
+2024-10-09 17:56:40 [main] INFO  TomcatWebServer - Tomcat started on port 8089 (http) with context path '/'
+2024-10-09 17:56:40 [main] INFO  RedisWebApplication - Started RedisWebApplication in 4.9 seconds (process running for 6.456)
+2024-10-09 17:56:46 [Thread-1] INFO  UserBoard - 查询排行榜
+2024-10-09 17:56:46 [Thread-1] INFO  UserBoard - "name-2"分数：92.0
+2024-10-09 17:56:46 [Thread-1] INFO  UserBoard - "name-0"分数：53.0
+2024-10-09 17:56:46 [Thread-1] INFO  UserBoard - "name-1"分数：19.0
+2024-10-09 17:56:46 [Thread-1] INFO  UserBoard - "name-3"分数：4.0
+2024-10-09 17:56:52 [Thread-1] INFO  UserBoard - 查询排行榜
+2024-10-09 17:56:52 [Thread-1] INFO  UserBoard - "name-7"分数：93.0
+2024-10-09 17:56:52 [Thread-1] INFO  UserBoard - "name-2"分数：92.0
+2024-10-09 17:56:52 [Thread-1] INFO  UserBoard - "name-8"分数：89.0
+2024-10-09 17:56:52 [Thread-1] INFO  UserBoard - "name-0"分数：53.0
+2024-10-09 17:56:53 [Thread-1] INFO  UserBoard - "name-4"分数：49.0
+2024-10-09 17:56:53 [Thread-1] INFO  UserBoard - "name-5"分数：20.0
+2024-10-09 17:56:53 [Thread-1] INFO  UserBoard - "name-1"分数：19.0
+2024-10-09 17:56:53 [Thread-1] INFO  UserBoard - "name-6"分数：12.0
+2024-10-09 17:56:53 [Thread-1] INFO  UserBoard - "name-3"分数：4.0
+2024-10-09 17:56:59 [Thread-1] INFO  UserBoard - 查询排行榜
+2024-10-09 17:56:59 [Thread-1] INFO  UserBoard - "name-5"分数：97.0
+2024-10-09 17:56:59 [Thread-1] INFO  UserBoard - "name-7"分数：93.0
+2024-10-09 17:56:59 [Thread-1] INFO  UserBoard - "name-2"分数：92.0
+2024-10-09 17:56:59 [Thread-1] INFO  UserBoard - "name-8"分数：89.0
+2024-10-09 17:57:00 [Thread-1] INFO  UserBoard - "name-9"分数：63.0
+2024-10-09 17:57:00 [Thread-1] INFO  UserBoard - "name-4"分数：58.0
+2024-10-09 17:57:00 [Thread-1] INFO  UserBoard - "name-0"分数：29.0
+2024-10-09 17:57:00 [Thread-1] INFO  UserBoard - "name-1"分数：19.0
+2024-10-09 17:57:00 [Thread-1] INFO  UserBoard - "name-6"分数：90.0
+2024-10-09 17:57:01 [Thread-1] INFO  UserBoard - "name-3"分数：4.0
+2024-10-09 17:57:16 [main] INFO  RedisWebApplication - Starting RedisWebApplication using Java 23 with PID 3604 (D:\git\i-notes\redis\target\classes started by admin in D:\git\i-notes\redis)
+2024-10-09 17:57:16 [main] INFO  RedisWebApplication - No active profile set, falling back to 1 default profile: "default"
+2024-10-09 17:57:17 [main] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+2024-10-09 17:57:17 [main] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2024-10-09 17:57:18 [main] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 23 ms. Found 0 Redis repository interfaces.
+2024-10-09 17:57:18 [main] INFO  TomcatWebServer - Tomcat initialized with port 8089 (http)
+2024-10-09 17:57:18 [main] INFO  Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8089"]
+2024-10-09 17:57:18 [main] INFO  StandardService - Starting service [Tomcat]
+2024-10-09 17:57:18 [main] INFO  StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.30]
+2024-10-09 17:57:18 [main] INFO  [/] - Initializing Spring embedded WebApplicationContext
+2024-10-09 17:57:18 [main] INFO  ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2421 ms
+2024-10-09 17:57:20 [main] INFO  EndpointLinksResolver - Exposing 1 endpoint beneath base path '/actuator'
+2024-10-09 17:57:20 [main] INFO  Http11NioProtocol - Starting ProtocolHandler ["http-nio-8089"]
+2024-10-09 17:57:20 [main] INFO  TomcatWebServer - Tomcat started on port 8089 (http) with context path '/'
+2024-10-09 17:57:20 [main] INFO  RedisWebApplication - Started RedisWebApplication in 5.024 seconds (process running for 6.449)
+2024-10-09 17:57:32 [main] INFO  RedisWebApplication - Starting RedisWebApplication using Java 23 with PID 5420 (D:\git\i-notes\redis\target\classes started by admin in D:\git\i-notes\redis)
+2024-10-09 17:57:32 [main] INFO  RedisWebApplication - No active profile set, falling back to 1 default profile: "default"
+2024-10-09 17:57:33 [main] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+2024-10-09 17:57:33 [main] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2024-10-09 17:57:33 [main] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 18 ms. Found 0 Redis repository interfaces.
+2024-10-09 17:57:34 [main] INFO  TomcatWebServer - Tomcat initialized with port 8089 (http)
+2024-10-09 17:57:34 [main] INFO  Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8089"]
+2024-10-09 17:57:34 [main] INFO  StandardService - Starting service [Tomcat]
+2024-10-09 17:57:34 [main] INFO  StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.30]
+2024-10-09 17:57:34 [main] INFO  [/] - Initializing Spring embedded WebApplicationContext
+2024-10-09 17:57:34 [main] INFO  ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2379 ms
+2024-10-09 17:57:36 [main] INFO  EndpointLinksResolver - Exposing 1 endpoint beneath base path '/actuator'
+2024-10-09 17:57:36 [main] INFO  Http11NioProtocol - Starting ProtocolHandler ["http-nio-8089"]
+2024-10-09 17:57:36 [main] INFO  TomcatWebServer - Tomcat started on port 8089 (http) with context path '/'
+2024-10-09 17:57:36 [main] INFO  RedisWebApplication - Started RedisWebApplication in 4.952 seconds (process running for 6.356)
+2024-10-09 17:57:42 [Thread-1] INFO  UserBoard - 查询排行榜
+2024-10-09 17:57:42 [Thread-1] INFO  UserBoard - "name-1"分数：51.0
+2024-10-09 17:57:42 [Thread-1] INFO  UserBoard - "name-0"分数：44.0
+2024-10-09 17:57:42 [Thread-1] INFO  UserBoard - "name-2"分数：73.0
+2024-10-09 17:57:47 [Thread-1] INFO  UserBoard - 查询排行榜
+2024-10-09 17:57:48 [Thread-1] INFO  UserBoard - "name-2"分数：86.0
+2024-10-09 17:57:48 [Thread-1] INFO  UserBoard - "name-0"分数：59.0
+2024-10-09 17:57:48 [Thread-1] INFO  UserBoard - "name-1"分数：51.0
+2024-10-09 17:57:53 [Thread-1] INFO  UserBoard - 查询排行榜
+2024-10-09 17:57:53 [Thread-1] INFO  UserBoard - "name-0"分数：70.0
+2024-10-09 17:57:54 [Thread-1] INFO  UserBoard - "name-2"分数：64.0
+2024-10-09 17:57:54 [Thread-1] INFO  UserBoard - "name-1"分数：51.0
+2024-10-09 17:57:59 [Thread-1] INFO  UserBoard - 查询排行榜
+2024-10-09 17:57:59 [Thread-1] INFO  UserBoard - "name-0"分数：49.0
+2024-10-09 17:58:00 [Thread-1] INFO  UserBoard - "name-1"分数：36.0
+2024-10-09 17:58:00 [Thread-1] INFO  UserBoard - "name-2"分数：18.0
+2024-10-09 17:58:05 [Thread-1] INFO  UserBoard - 查询排行榜
+2024-10-09 17:58:05 [Thread-1] INFO  UserBoard - "name-2"分数：56.0
+2024-10-09 17:58:05 [Thread-1] INFO  UserBoard - "name-1"分数：35.0
+2024-10-09 17:58:06 [Thread-1] INFO  UserBoard - "name-0"分数：13.0
+2024-10-09 17:58:11 [Thread-1] INFO  UserBoard - 查询排行榜
+2024-10-09 17:58:11 [Thread-1] INFO  UserBoard - "name-0"分数：79.0
+2024-10-09 17:58:11 [Thread-1] INFO  UserBoard - "name-2"分数：48.0
+2024-10-09 17:58:11 [Thread-1] INFO  UserBoard - "name-1"分数：43.0
+2024-10-09 17:58:17 [Thread-1] INFO  UserBoard - 查询排行榜
+2024-10-09 17:58:17 [Thread-1] INFO  UserBoard - "name-0"分数：87.0
+2024-10-09 17:58:17 [Thread-1] INFO  UserBoard - "name-2"分数：52.0
+2024-10-09 17:58:17 [Thread-1] INFO  UserBoard - "name-1"分数：69.0
+2024-10-09 17:58:22 [Thread-1] INFO  UserBoard - 查询排行榜
+2024-10-09 17:58:23 [Thread-1] INFO  UserBoard - "name-1"分数：69.0
+2024-10-09 17:58:23 [Thread-1] INFO  UserBoard - "name-2"分数：59.0
+2024-10-09 17:58:23 [Thread-1] INFO  UserBoard - "name-0"分数：17.0
+2024-10-09 17:58:28 [Thread-1] INFO  UserBoard - 查询排行榜
+2024-10-09 17:58:28 [Thread-1] INFO  UserBoard - "name-1"分数：87.0
+2024-10-09 17:58:29 [Thread-1] INFO  UserBoard - "name-2"分数：73.0
+2024-10-09 17:58:29 [Thread-1] INFO  UserBoard - "name-0"分数：27.0
+2024-10-09 17:58:34 [Thread-1] INFO  UserBoard - 查询排行榜
+2024-10-09 17:58:34 [Thread-1] INFO  UserBoard - "name-1"分数：86.0
+2024-10-09 17:58:34 [Thread-1] INFO  UserBoard - "name-0"分数：82.0
+2024-10-09 17:58:35 [Thread-1] INFO  UserBoard - "name-2"分数：35.0
+2024-10-09 17:58:40 [Thread-1] INFO  UserBoard - 查询排行榜
+2024-10-09 17:58:40 [Thread-1] INFO  UserBoard - "name-0"分数：75.0
+2024-10-09 17:58:40 [Thread-1] INFO  UserBoard - "name-2"分数：56.0
+2024-10-09 17:58:40 [Thread-1] INFO  UserBoard - "name-1"分数：13.0
+2024-10-09 17:58:46 [Thread-1] INFO  UserBoard - 查询排行榜
+2024-10-09 17:58:46 [Thread-1] INFO  UserBoard - "name-1"分数：84.0
+2024-10-09 17:58:46 [Thread-1] INFO  UserBoard - "name-0"分数：78.0
+2024-10-09 17:58:46 [Thread-1] INFO  UserBoard - "name-2"分数：70.0
+2024-10-09 17:58:51 [Thread-1] INFO  UserBoard - 查询排行榜
+2024-10-09 17:58:52 [Thread-1] INFO  UserBoard - "name-1"分数：84.0
+2024-10-09 17:58:52 [Thread-1] INFO  UserBoard - "name-2"分数：38.0
+2024-10-09 17:58:52 [Thread-1] INFO  UserBoard - "name-0"分数：1.0
+2024-10-09 17:58:57 [Thread-1] INFO  UserBoard - 查询排行榜
+2024-10-09 17:58:57 [Thread-1] INFO  UserBoard - "name-1"分数：75.0
+2024-10-09 17:58:58 [Thread-1] INFO  UserBoard - "name-0"分数：69.0
+2024-10-09 17:58:58 [Thread-1] INFO  UserBoard - "name-2"分数：78.0
+2024-10-09 17:59:03 [Thread-1] INFO  UserBoard - 查询排行榜
+2024-10-09 17:59:03 [Thread-1] INFO  UserBoard - "name-1"分数：89.0
+2024-10-09 17:59:04 [Thread-1] INFO  UserBoard - "name-2"分数：78.0
+2024-10-09 17:59:04 [Thread-1] INFO  UserBoard - "name-0"分数：63.0
+2024-10-09 17:59:09 [Thread-1] INFO  UserBoard - 查询排行榜
+2024-10-09 17:59:09 [Thread-1] INFO  UserBoard - "name-1"分数：85.0
+2024-10-09 17:59:09 [Thread-1] INFO  UserBoard - "name-2"分数：43.0
+2024-10-09 17:59:10 [Thread-1] INFO  UserBoard - "name-0"分数：15.0
+2024-10-09 17:59:15 [Thread-1] INFO  UserBoard - 查询排行榜
+2024-10-09 17:59:15 [Thread-1] INFO  UserBoard - "name-2"分数：86.0

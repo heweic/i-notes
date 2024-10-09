@@ -10,6 +10,19 @@ public class User {
 
 	private int age;
 
+	private int score;
+	
+	
+	
+	
+	public int getScore() {
+		return score;
+	}
+
+	public void setScore(int score) {
+		this.score = score;
+	}
+
 	public User() {
 	}
 
