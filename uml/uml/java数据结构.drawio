@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" version="24.7.17">
   <diagram name="第 1 页" id="YbzWW5LpQO2l_ZJEJGdQ">
-    <mxGraphModel dx="3483" dy="2149" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3241" dy="1912" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -389,8 +389,8 @@
             <mxPoint x="-1930" y="430" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="ZqdZeirsNgzGF7iQw4f_-17" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;PriortyQueue&amp;lt;E&amp;gt;&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ field: Type&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ method(): Type&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="460" y="660" width="160" height="90" as="geometry" />
+        <mxCell id="ZqdZeirsNgzGF7iQw4f_-17" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;PriortyQueue&amp;lt;E&amp;gt;&lt;/b&gt;&lt;/p&gt;&lt;p style=&quot;margin: 4px 0px 0px;&quot;&gt;&lt;b&gt;基于堆(Heap)数据结构实现，无界队列，按照元素优先级进行排序&lt;/b&gt;&lt;/p&gt;&lt;p style=&quot;margin: 4px 0px 0px;&quot;&gt;&lt;b&gt;完全二叉树，搞笑支持优先级的插入和删除&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- queue:object[] // 元素数组&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- grow(minCapacity:int):void&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;/*&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;queue增长实现&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;新大小通过 int new capacity= ArraysSupport.newLength(oldCapacity, minCapacity - oldCapacity,oldCapacity &amp;lt; 64 ? oldCapacity + 2 : oldCapacity &amp;gt;&amp;gt; 1)&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;如果小于最小容量，则是最小容量&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;如果大于最小容量小于64则，加2&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;如果大于64，则加32&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;最后调用Arrays.copryOf(queue,capacity)实现增长&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;*/&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="430" y="610" width="300" height="490" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
