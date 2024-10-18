@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" version="24.7.17">
   <diagram name="第 1 页" id="YbzWW5LpQO2l_ZJEJGdQ">
-    <mxGraphModel dx="4686" dy="2517" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="4043" dy="1888" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -406,6 +406,81 @@
         </mxCell>
         <mxCell id="ZqdZeirsNgzGF7iQw4f_-24" value="&lt;div style=&quot;text-align: center;&quot;&gt;&lt;b style=&quot;background-color: initial;&quot;&gt;图(Graph)&lt;/b&gt;&lt;/div&gt;&lt;div&gt;由顶点(Vertex)和边(Edge)组成，图的数据非常灵活&lt;/div&gt;&lt;div&gt;可以用来表示许多现实生活中的关系，如社交网络中的朋友关系，地图中的城市和道路，网络中的节点和连接等等&lt;/div&gt;&lt;div&gt;基本概念&lt;/div&gt;&lt;div&gt;&lt;ul&gt;&lt;li&gt;&lt;span style=&quot;background-color: initial; white-space: pre;&quot;&gt;顶点(Vertex):图中的基本元素，表示一个数据点&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;background-color: initial; white-space: pre;&quot;&gt;边(Edge):连接两个定点的线，表示点之间的关系&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;background-color: initial; white-space: pre;&quot;&gt;度：&#x9;跟顶点连接边的条数&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;根据边的性质和方向，图可以分为&lt;/div&gt;&lt;div&gt;&lt;ul&gt;&lt;li&gt;&lt;span style=&quot;background-color: initial; white-space: pre;&quot;&gt;无向图(Undirected Graph): 边没有方向，表示两个顶点之间是双向关系&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;background-color: initial; white-space: pre;&quot;&gt;有向图（Directed Graph）:边有方向，表示从一个顶点指向另一个顶点的关系&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;根据边是否有权重，图还可以分为：&lt;/div&gt;&lt;div&gt;&lt;ul&gt;&lt;li&gt;无权图（Unweighted Graph）: 边没有附加的权重值&lt;/li&gt;&lt;li&gt;加权图(Weighted Graph):边上有一个权重值，表示某种成本，距离，或容量&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;&lt;div&gt;类型&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;无向无权图：顶点之间的连接是双向的，且没有附加权重&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;无向加权图：顶点之间的连接是双向的，且边有权重&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;有向无权图：顶点之间的连接是单向的，且没有附加权重&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;有向加权图：顶点之间的连接是双向的，且有权重&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;表示方式&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;图在编程中有两种常见的表示方式：邻接矩阵和邻接表&lt;/span&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;图例：&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;一个有4个顶点的无向无权图&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;0 --- 1&lt;br&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; |&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;|&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; 2 --- 3&lt;/div&gt;&lt;div&gt;&lt;ul&gt;&lt;li&gt;邻接矩阵(Adjacency Matrix)&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;/li&gt;&lt;ul&gt;&lt;li&gt;邻接矩阵是一个二维数组,其中matrix[i][j]表示顶点i和顶点j之间是否有边。如果是无权图，矩阵中的元素为0或1；如果是加权图，矩阵中的元素则是边的权重。&lt;/li&gt;&lt;li&gt;表示方式&lt;/li&gt;&lt;ul&gt;&lt;li&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; 0&amp;nbsp; 1&amp;nbsp; 2&amp;nbsp; 3&lt;/li&gt;&lt;li&gt;0 [&amp;nbsp; 0, 1, 1, 0 ]&lt;/li&gt;&lt;li&gt;1 [&amp;nbsp; 1, 0, 0, 1 ]&lt;/li&gt;&lt;li&gt;2 [&amp;nbsp; 1, 0, 0, 1 ]&lt;/li&gt;&lt;li&gt;3 [&amp;nbsp; 0, 1, 1, 0 ]&lt;/li&gt;&lt;/ul&gt;&lt;li&gt;优点&lt;/li&gt;&lt;ul&gt;&lt;li&gt;适合表示稠密图（很多的边）&lt;/li&gt;&lt;li&gt;可以快速判断两个顶点之间是否有边&lt;/li&gt;&lt;/ul&gt;&lt;li&gt;缺点&lt;/li&gt;&lt;ul&gt;&lt;li&gt;对稀疏图（边较少），浪费空间&lt;/li&gt;&lt;/ul&gt;&lt;/ul&gt;&lt;li&gt;邻接表(Adjacency List)&lt;/li&gt;&lt;ul&gt;&lt;li&gt;邻连表示一个列表数组，每个列表对应一个顶点，列表中的元素是该顶点的邻连接点（相连的顶点），如果是加权图，列表中的元素还包含边的权重&lt;/li&gt;&lt;li&gt;表示方式&lt;/li&gt;&lt;ul&gt;&lt;li&gt;0:&amp;nbsp; 1,2&lt;/li&gt;&lt;li&gt;1:&amp;nbsp; 0,3&lt;/li&gt;&lt;li&gt;2:&amp;nbsp; 0,3&lt;/li&gt;&lt;li&gt;3:&amp;nbsp; 1,2&lt;/li&gt;&lt;/ul&gt;&lt;li&gt;优点&lt;/li&gt;&lt;ul&gt;&lt;li&gt;节省空间，特别是对于稀疏图&lt;/li&gt;&lt;li&gt;更适合动态添加边和顶点的情况&lt;/li&gt;&lt;/ul&gt;&lt;li&gt;缺点&lt;/li&gt;&lt;ul&gt;&lt;li&gt;判断两个顶点是否相邻的时间复杂度较高&lt;/li&gt;&lt;/ul&gt;&lt;/ul&gt;&lt;/ul&gt;&lt;/div&gt;&lt;div&gt;遍历算法&lt;/div&gt;&lt;div&gt;&lt;ul&gt;&lt;li&gt;深度优先搜索（DFS)&lt;/li&gt;&lt;ul&gt;&lt;li&gt;一种递归的遍历方式，它尽可能深的搜索图的一个分支，然后回溯，知道访问完所有顶点&lt;/li&gt;&lt;/ul&gt;&lt;li&gt;广度优先搜索（BFS）&lt;/li&gt;&lt;ul&gt;&lt;li&gt;一种迭代的遍历方式，它使用队列来逐层访问每一个顶点&lt;/li&gt;&lt;/ul&gt;&lt;/ul&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;/div&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;align=left;" vertex="1" parent="1">
           <mxGeometry x="2060" y="-1020" width="480" height="1124" as="geometry" />
+        </mxCell>
+        <mxCell id="ZqdZeirsNgzGF7iQw4f_-26" value="算法" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-2600" y="2865" width="120" height="210" as="geometry" />
+        </mxCell>
+        <mxCell id="ZqdZeirsNgzGF7iQw4f_-29" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="ZqdZeirsNgzGF7iQw4f_-26" target="ZqdZeirsNgzGF7iQw4f_-30">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-2180" y="2880" as="sourcePoint" />
+            <mxPoint x="-2130" y="2750" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZqdZeirsNgzGF7iQw4f_-30" value="排序算法" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-2127" y="2620" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ZqdZeirsNgzGF7iQw4f_-31" value="搜索算法" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-2127" y="2730" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ZqdZeirsNgzGF7iQw4f_-32" value="动态规划" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-2127" y="2830" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ZqdZeirsNgzGF7iQw4f_-33" value="贪心算法" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-2127" y="2940" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ZqdZeirsNgzGF7iQw4f_-34" value="分治算法" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-2127" y="3050" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ZqdZeirsNgzGF7iQw4f_-35" value="回溯算法" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-2127" y="3150" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ZqdZeirsNgzGF7iQw4f_-36" value="图算法" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-2127" y="3250" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ZqdZeirsNgzGF7iQw4f_-37" value="字符串处理算法" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-2127" y="3340" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ZqdZeirsNgzGF7iQw4f_-38" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="ZqdZeirsNgzGF7iQw4f_-26" target="ZqdZeirsNgzGF7iQw4f_-31">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-2170" y="3060" as="sourcePoint" />
+            <mxPoint x="-2120" y="3010" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZqdZeirsNgzGF7iQw4f_-39" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="ZqdZeirsNgzGF7iQw4f_-26" target="ZqdZeirsNgzGF7iQw4f_-32">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-2400" y="3110" as="sourcePoint" />
+            <mxPoint x="-2350" y="3060" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZqdZeirsNgzGF7iQw4f_-40" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.979;exitY=0.499;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="ZqdZeirsNgzGF7iQw4f_-26" target="ZqdZeirsNgzGF7iQw4f_-33">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-2450" y="3000" as="sourcePoint" />
+            <mxPoint x="-2117" y="2870" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZqdZeirsNgzGF7iQw4f_-41" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.021;entryY=0.58;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="ZqdZeirsNgzGF7iQw4f_-26" target="ZqdZeirsNgzGF7iQw4f_-34">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-2473" y="2980" as="sourcePoint" />
+            <mxPoint x="-2117" y="2980" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZqdZeirsNgzGF7iQw4f_-42" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.991;exitY=0.507;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="ZqdZeirsNgzGF7iQw4f_-26" target="ZqdZeirsNgzGF7iQw4f_-35">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-2470" y="2980" as="sourcePoint" />
+            <mxPoint x="-2114" y="3095" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZqdZeirsNgzGF7iQw4f_-43" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.994;exitY=0.508;exitDx=0;exitDy=0;entryX=0.017;entryY=0.656;entryDx=0;entryDy=0;entryPerimeter=0;exitPerimeter=0;" edge="1" parent="1" source="ZqdZeirsNgzGF7iQw4f_-26" target="ZqdZeirsNgzGF7iQw4f_-36">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-2460" y="2990" as="sourcePoint" />
+            <mxPoint x="-2104" y="3105" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZqdZeirsNgzGF7iQw4f_-44" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.979;exitY=0.51;exitDx=0;exitDy=0;entryX=0.028;entryY=0.611;entryDx=0;entryDy=0;entryPerimeter=0;exitPerimeter=0;" edge="1" parent="1" source="ZqdZeirsNgzGF7iQw4f_-26" target="ZqdZeirsNgzGF7iQw4f_-37">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-2450" y="3000" as="sourcePoint" />
+            <mxPoint x="-2094" y="3115" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
