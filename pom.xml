@@ -18,6 +18,9 @@
 		<module>Api-demo</module>
 		<module>nio</module>
 		<module>redis</module>
+		<module>algorithms</module>
+		<module>web</module>
+		<module>uml</module>
 	</modules>
 	<dependencies>
 		<!-- Log4j2 Dependencies -->

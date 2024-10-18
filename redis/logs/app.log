@@ -3068,3 +3068,50 @@ Consider defining a bean of type 'org.redisson.api.RedissonClient' in your confi
 2024-10-09 17:59:10 [Thread-1] INFO  UserBoard - "name-0"分数：15.0
 2024-10-09 17:59:15 [Thread-1] INFO  UserBoard - 查询排行榜
 2024-10-09 17:59:15 [Thread-1] INFO  UserBoard - "name-2"分数：86.0
+2024-10-09 18:00:50 [main] INFO  RedisWebApplication - Starting RedisWebApplication using Java 23 with PID 1468 (D:\git\i-notes\redis\target\classes started by admin in D:\git\i-notes\redis)
+2024-10-09 18:00:50 [main] INFO  RedisWebApplication - No active profile set, falling back to 1 default profile: "default"
+2024-10-09 18:00:52 [main] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+2024-10-09 18:00:52 [main] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2024-10-09 18:00:52 [main] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 20 ms. Found 0 Redis repository interfaces.
+2024-10-09 18:00:53 [main] INFO  TomcatWebServer - Tomcat initialized with port 8089 (http)
+2024-10-09 18:00:53 [main] INFO  Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8089"]
+2024-10-09 18:00:53 [main] INFO  StandardService - Starting service [Tomcat]
+2024-10-09 18:00:53 [main] INFO  StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.30]
+2024-10-09 18:00:53 [main] INFO  [/] - Initializing Spring embedded WebApplicationContext
+2024-10-09 18:00:53 [main] INFO  ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2440 ms
+2024-10-09 18:00:55 [main] INFO  EndpointLinksResolver - Exposing 1 endpoint beneath base path '/actuator'
+2024-10-09 18:00:55 [main] INFO  Http11NioProtocol - Starting ProtocolHandler ["http-nio-8089"]
+2024-10-09 18:00:55 [main] INFO  TomcatWebServer - Tomcat started on port 8089 (http) with context path '/'
+2024-10-09 18:00:55 [main] INFO  RedisWebApplication - Started RedisWebApplication in 5.134 seconds (process running for 6.571)
+2024-10-09 18:01:00 [Thread-1] INFO  UserBoard - 查询排行榜
+2024-10-09 18:01:00 [Thread-1] INFO  UserBoard - "name-2"分数：43.0
+2024-10-09 18:01:01 [Thread-1] INFO  UserBoard - "name-1"分数：34.0
+2024-10-09 18:01:01 [Thread-1] INFO  UserBoard - "name-0"分数：17.0
+2024-10-09 18:01:06 [Thread-1] INFO  UserBoard - 查询排行榜
+2024-10-09 18:01:06 [Thread-1] INFO  UserBoard - "name-2"分数：98.0
+2024-10-09 18:01:06 [Thread-1] INFO  UserBoard - "name-1"分数：34.0
+2024-10-09 18:01:07 [Thread-1] INFO  UserBoard - "name-0"分数：53.0
+2024-10-09 18:01:12 [Thread-1] INFO  UserBoard - 查询排行榜
+2024-10-09 18:01:12 [Thread-1] INFO  UserBoard - "name-2"分数：98.0
+2024-10-09 18:01:12 [Thread-1] INFO  UserBoard - "name-0"分数：81.0
+2024-10-09 18:01:12 [Thread-1] INFO  UserBoard - "name-1"分数：59.0
+2024-10-09 18:01:18 [Thread-1] INFO  UserBoard - 查询排行榜
+2024-10-09 18:01:18 [Thread-1] INFO  UserBoard - "name-1"分数：85.0
+2024-10-09 18:01:18 [Thread-1] INFO  UserBoard - "name-0"分数：73.0
+2024-10-09 18:01:18 [Thread-1] INFO  UserBoard - "name-2"分数：52.0
+2024-10-09 18:01:23 [Thread-1] INFO  UserBoard - 查询排行榜
+2024-10-09 18:01:24 [Thread-1] INFO  UserBoard - "name-1"分数：47.0
+2024-10-09 18:01:24 [Thread-1] INFO  UserBoard - "name-2"分数：28.0
+2024-10-09 18:01:24 [Thread-1] INFO  UserBoard - "name-0"分数：14.0
+2024-10-09 18:01:29 [Thread-1] INFO  UserBoard - 查询排行榜
+2024-10-09 18:01:29 [Thread-1] INFO  UserBoard - "name-0"分数：66.0
+2024-10-09 18:01:30 [Thread-1] INFO  UserBoard - "name-2"分数：62.0
+2024-10-09 18:01:30 [Thread-1] INFO  UserBoard - "name-1"分数：9.0
+2024-10-09 18:01:35 [Thread-1] INFO  UserBoard - 查询排行榜
+2024-10-09 18:01:35 [Thread-1] INFO  UserBoard - "name-0"分数：86.0
+2024-10-09 18:01:35 [Thread-1] INFO  UserBoard - "name-2"分数：62.0
+2024-10-09 18:01:36 [Thread-1] INFO  UserBoard - "name-1"分数：12.0
+2024-10-09 18:01:41 [Thread-1] INFO  UserBoard - 查询排行榜
+2024-10-09 18:01:41 [Thread-1] INFO  UserBoard - "name-2"分数：63.0
+2024-10-09 18:01:41 [Thread-1] INFO  UserBoard - "name-0"分数：34.0
+2024-10-09 18:01:41 [Thread-1] INFO  UserBoard - "name-1"分数：36.0
