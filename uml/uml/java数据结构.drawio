@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" version="24.7.17">
   <diagram name="第 1 页" id="YbzWW5LpQO2l_ZJEJGdQ">
-    <mxGraphModel dx="4043" dy="1888" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3716" dy="1568" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -417,7 +417,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="ZqdZeirsNgzGF7iQw4f_-30" value="排序算法" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-2127" y="2620" width="120" height="60" as="geometry" />
+          <mxGeometry x="-2127" y="2500" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="ZqdZeirsNgzGF7iQw4f_-31" value="搜索算法" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-2127" y="2730" width="120" height="60" as="geometry" />
@@ -481,6 +481,9 @@
             <mxPoint x="-2450" y="3000" as="sourcePoint" />
             <mxPoint x="-2094" y="3115" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="ZqdZeirsNgzGF7iQw4f_-46" value="比较类排序算法" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;" vertex="1" parent="1">
+          <mxGeometry x="-1950" y="2310" width="200" height="100" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
