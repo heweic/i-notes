@@ -7,10 +7,10 @@ import java.util.Random;
  */
 public class CompareSort {
 
-	public static int[] randomArr() {
-		int[] arr = new int[10];
+	public static int[] randomArr(int num) {
+		int[] arr = new int[num];
 		for (int i = 0; i < arr.length; i++) {
-			arr[i] = new Random().nextInt(arr.length * 2);
+			arr[i] = new Random().nextInt(arr.length);
 		}
 		System.out.println("排序前:" + toString(arr));
 		return arr;
@@ -42,16 +42,16 @@ public class CompareSort {
 
 		CompareSort sort = new CompareSort();
 
-		System.out.println("冒泡排序算法:" + toString(sort.bubbleSort(randomArr())));
+		System.out.println("冒泡排序算法:" + toString(sort.bubbleSort(randomArr(10))));
 		System.out.println();
-		System.out.println("选择排序算法:" + toString(sort.selectSort(randomArr())));
+		System.out.println("选择排序算法:" + toString(sort.selectSort(randomArr(10))));
 		System.out.println();
-		System.out.println("插入排序算法:" + toString(sort.insertSort(randomArr())));
+		System.out.println("插入排序算法:" + toString(sort.insertSort(randomArr(10))));
 		System.out.println();
-		int[] arr = randomArr();
+		int[] arr = randomArr(10);
 		System.out.println("快速排序算法:" + toString(sort.quickSort(arr, 0, arr.length - 1)));
 		System.out.println();
-		int[] arr2 = randomArr();
+		int[] arr2 = randomArr(10);
 		System.out.println("归并排序算法:" + toString(sort.margeSort(arr2, 0, arr2.length - 1)));
 	}
 
