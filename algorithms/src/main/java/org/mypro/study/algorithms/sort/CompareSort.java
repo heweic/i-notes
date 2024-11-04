@@ -53,6 +53,7 @@ public class CompareSort {
 		System.out.println();
 		int[] arr2 = randomArr(10);
 		System.out.println("归并排序算法:" + toString(sort.margeSort(arr2, 0, arr2.length - 1)));
+		
 	}
 
 	/**

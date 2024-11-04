@@ -6,6 +6,9 @@ package org.mypro.study.algorithms.search;
 public class BinarySearch {
 
 	public static void main(String[] args) {
+		
+	
+		
 
 		int[] arr = new int[] { 1, 5, 7, 9, 12, 15, 17 };
 
@@ -30,7 +33,7 @@ public class BinarySearch {
 		} else {
 			return search(arr, mid + 1, right, target);
 		}
-
+		
 		//
 	}
 
